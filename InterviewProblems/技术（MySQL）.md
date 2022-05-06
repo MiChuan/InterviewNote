@@ -157,7 +157,7 @@ InnoDB 存储引擎有一个特殊的功能叫“自适应哈希索引”，当�
 
 1. 事务：MyISAM不支持事务，InnoDB支持事务；
 2. 全文索引：MyISAM 支持全文索引，InnoDB 5.6 之前不支持全文索引；
-3. 关于 count(*)：MyISAM会直接存储总行数，InnoDB 则不会，需要按行扫描。意思就是对于 select count(*) from table; 如果数据量大，MyISAM 会瞬间返回，而 InnoDB 则会一行行扫描；
+3. 关于 count(\*)：MyISAM会直接存储总行数，InnoDB 则不会，需要按行扫描。意思就是对于 select count(\*) from table; 如果数据量大，MyISAM 会瞬间返回，而 InnoDB 则会一行行扫描；
 4. 外键：MyISAM 不支持外键，InnoDB 支持外键；
 5. 锁：MyISAM 只支持表锁，InnoDB 可以支持行锁。
 
