@@ -34,7 +34,7 @@ public:
             	curNode = curNode->right;
             }
         }
-        printf("\n");
+        std::cout << endl;
 	}
 
 	void inorderTraverse(TreeNode* root) {//中序遍历
