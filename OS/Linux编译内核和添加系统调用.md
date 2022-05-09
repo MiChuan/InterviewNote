@@ -21,11 +21,11 @@
 
 ### 步骤
 
-1. 下载内核源码并解压，下载版本为linux-4.14.141
+1. 下载内核源码并解压，下载版本为`linux-4.14.141`
 
-2. 编写添加到内核中的新的系统调用例程，将例程添加到linux-4.14.141/kernel/sys.c文件中
+2. 编写添加到内核中的新的系统调用例程，将例程添加到`linux-4.14.141/kernel/sys.c`文件中
 
-3. 连接新的系统调用，在linux-4.14.141/include/linux/syscalls.h文件中添加新的系统调用的函数定义，在linux-4.14.141/arch/x86/entry/syscalls/syscall_64.tbl系统调用表中为新增的系统调用分配一个系统调用号和系统调用名
+3. 连接新的系统调用，在`linux-4.14.141/include/linux/syscalls.h`文件中添加新的系统调用的函数定义，在`linux-4.14.141/arch/x86/entry/syscalls/syscall_64.tbl`系统调用表中为新增的系统调用分配一个系统调用号和系统调用名
 
 4. 配置编译内核所需环境
 
@@ -36,8 +36,8 @@ $ sudo apt-get install zlibc minizip
 $ sudo apt-get install libidn11-dev libidn11
 ```
 
-5. 将内核源码拷贝到/usr/src目录下，进入内核源码目录，在该目录打开终端，进入超级用户权限
-6. 生成配置文件.config，在终端执行
+5. 将内核源码拷贝到`/usr/src`目录下，进入内核源码目录，在该目录打开终端，进入超级用户权限
+6. 生成配置文件`.config`，在终端执行
 
 ```shell
 $ make menuconfig
@@ -69,13 +69,13 @@ $ make install
 
 ### 添加系统调用例程
 
-1. 函数定义使用了宏定义SYSCALL_DEFINEx，x代表参数数目，新增例程需传入2个参数，故x为2；宏定义第一个参数为系统调用名mycopy，而后为参数类型申明const char __user *，__user标记了参数是从用户空间传入，即传入的文件名，故函数定义为：
+1. 函数定义使用了宏定义`SYSCALL_DEFINEx`，x代表参数数目，新增例程需传入2个参数，故x为2；宏定义第一个参数为系统调用名`mycopy`，而后为参数类型申明`const char __user *`，`__user`标记了参数是从用户空间传入，即传入的文件名，故函数定义为：
 
 ```c
 SYSCALL_DEFINE2(mycopy, const char __user *, _target, const char __user *, _source)
 ```
 
-2. 系统调用提供了用户程序和操作系统之间的接口，应用程序通过系统调用实现其与 OS 的通信，并可取得它的服务。故系统调用总数默认传入参数来自用户空间，此时在内核中调用内核函数传入参数，则需要将用户空间参数拷贝到内核空间，防止因KPTI（内核页表隔离）产生访问错误，调用函数strndup_user将文件名从用户空间拷贝到内核空间：
+2. 系统调用提供了用户程序和操作系统之间的接口，应用程序通过系统调用实现其与 OS 的通信，并可取得它的服务。故系统调用总数默认传入参数来自用户空间，此时在内核中调用内核函数传入参数，则需要将用户空间参数拷贝到内核空间，防止因`KPTI`（内核页表隔离）产生访问错误，调用函数`strndup_user`将文件名从用户空间拷贝到内核空间：
 
 ```c
 target = strndup_user(_target,PAGE_SIZE);
@@ -116,11 +116,11 @@ asmlinkage long sys_mycopy(const char __user *target, const char __user *source)
 
 ## 测试
 
-1. 使用uname -r命令查看当前系统内核版本
+1. 使用`uname -r`命令查看当前系统内核版本
 
    ![查看内核版本](http://mi_chuan.gitee.io/blog/查看内核版本.png)
 
-2. gcc编译测试程序并运行
+2. `gcc`编译测试程序并运行
 
    ![测试系统调用](http://mi_chuan.gitee.io/blog/测试系统调用.png)
 
@@ -142,7 +142,7 @@ asmlinkage long sys_mycopy(const char __user *target, const char __user *source)
 > > >
 > > > test_copy       编译生成的二进制程序
 > >
-> > ReadMe.txt        内核空间访问说明
+> > example.c          内核空间访问说明示例程序
 > >
 > > syscall_64.tbl     系统调用表
 > >
