@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Zobrazit OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "karta",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Ušetříte až 95 % paměti a snížíte objem nepoužívaných karet.",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Odeslat aktuální kartu do aplikace OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Obnovit vše",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Odstranit vše",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Vytvořeno",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Opravdu chcete tuto kartu odstranit?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Opravdu chcete tyto karty odstranit?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Pokud chcete tuto skupinu karet odstranit, musíte ji nejprve odemknout (prostřednictvím tlačítka Více...)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Sdílet jako webovou stránku",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Sdílet vše jako webovou stránku",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Čekejte prosím...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Více...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Pojmenovat tuto skupinu karet",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Odemknout tuto skupinu karet",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Zamknout tuto skupinu karet",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Zrušit označení této skupiny karet hvězdičkou",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Označit tuto skupinu karet hvězdičkou",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Nápověda",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Přenést všechny karty do aplikace OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "V aplikaci OneTab dosud nemáte žádné karty.",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportovat/importovat adresy URL",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importovat adresy URL",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Vložte do seznamu adres URL a potom klikněte níže na Importovat.",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exportovat adresy URL",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importovat",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportovat",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Možnosti",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Funkce",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "O aplikaci",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Zpětná vazba",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Pokud máte otevřeno více karet, klikněte na panelu nástrojů prohlížeče na ikonu OneTab a vaše otevřené karty se zobrazí zde.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Celkem: 0 karet",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Celkem: 1 karta",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Celkem: 2 karty",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 karta",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 karty",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Následující seznam adres URL lze také importovat zpět do aplikace OneTab na tomto nebo jiném počítači.",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Po obnovení skupiny karet odeslat karty do:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Nového okna, pokud OneTab není jedinou kartou v aktuálním okně",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Vždy do nového okna",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Vždy do aktuálního okna",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Připnuté karty:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Neodesílat připnuté karty do aplikace OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Kdykoli můžete odeslat připnutou kartu do aplikace OneTab ručně: kliknutím pravým tlačítkem na webové stránce otevřete nabídku aplikace OneTab a potom klikněte na možnost Odeslat pouze tuto kartu do aplikace OneTab.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Povolit odesílání připnutých karet do aplikace OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Poznámka: Karta se připne, když na ni kliknete pravým tlačítkem a potom kliknete na Připnout kartu. Někteří lidé si rádi připínají weby, jako je například Facebook nebo Gmail, aby k nim měli rychlý přístup. Když kartu obnovíte, bude si aplikace OneTab pamatovat, zda byla připnutá.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "První spuštění:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Zobrazit OneTab vždy při prvním spuštění webového prohlížeče",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Neotevírat OneTab automaticky",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Pokud chcete OneTab otevřít ručně, zobrazte kliknutím pravým tlačítkem nabídku a zvolte Zobrazit OneTab.",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Po kliknutí na Obnovit vše nebo obnovení jedné karty:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Otevřete kartu nebo karty a odeberte je ze seznamu aplikace OneTab.",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Karty můžete stisknutím klávesy Ctrl, Cmd nebo Shift kdykoli obnovit, aniž byste je odebrali z aplikace OneTab. Jestliže kteroukoli skupinu karet nastavíte jako zamčenou, pak se tyto karty z aplikace OneTab odeberou (pokud danou skupinu karet předtím neodemknete).",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Ponechat je v seznamu aplikace OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Položky můžete ručně odstranit, když na ně umístíte ukazatel a kliknete na ikonu X nebo na tlačítko Odstranit vše.",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplikáty:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Povolit duplikáty",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Odmítat duplikáty bez upozornění",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Pokud už aplikace OneTab adresu URL karty obsahuje, pak se znovu nepřidá. Toto se týká pouze případů, kdy kliknete na ikonu aplikace OneTab nebo použijete nabídku vyvolanou pravým tlačítkem, abyste do aplikace OneTab odeslali více karet. Použijete-li nabídku aplikace OneTab vyvolanou pravým tlačítkem k tomu, abyste do aplikace OneTab odeslali pouze konkrétní kartu, pak se duplikáty pro tuto konkrétní kartu povolí.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Pojmenované skupiny karet",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Vyloučit z aplikace OneTab webovou stránku DOMAIN.COM",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Vyloučit z aplikace OneTab tuto webovou stránku",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Odeslat všechny karty do aplikace OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Odeslat tento webový odkaz do aplikace OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Odeslat pouze tuto kartu do aplikace OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Odeslat všechny karty kromě této do aplikace OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Odeslat karty nalevo do aplikace OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Odeslat karty napravo do aplikace OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Odeslat všechny karty ze všech oken do aplikace OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Odeslat všechny karty do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Odeslat tento webový odkaz do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Odeslat pouze tuto kartu do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Odeslat všechny karty kromě této do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Odeslat karty nalevo do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Odeslat karty napravo do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Odeslat všechny karty ze všech oken do složky PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Ušetříte až 95 % paměti a snížíte objem nepoužívaných karet v prohlížeči Google Chrome.",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Před: využito 1981 MB",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Po: využito jen 99 MB",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95% snížení paměti",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Přidat OneTab",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Nevyžaduje se registrace.",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "Aplikace OneTab je dostupná také pro Firefox.",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Převést karty na seznam",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Snížit využití paměti o 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab je teď k dispozici v češtině!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Nový!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Máte příliš mnoho karet? Převeďte je na seznam a zrychlete Firefox.",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Před: ztrácíte se v záplavě karet, prohlížeč je pomalý",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Po: okamžitá úleva, karty můžete později rychle obnovit",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Čeština",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Jazyk:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "عرض OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "التبويب",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "وفر ما يصل إلى 95% من الذاكرة وقلل تراكم علامات التبويب",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "أرسل التبويب الحالي إلى OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "استعادة الكل",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "حذف الكل",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "تاريخ الإنشاء:",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "هل أنت متأكد أنك تريد حذف هذا التبويب؟",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه التبويبات؟",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "لحذف مجموعة التبويبات هذه، يجب عليك فتحها أولاً (عبر زر \"المزيد ...\")",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "مشاركة كصفحة ويب",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "مشاركة الكل كصفحة ويب",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "يُرجى الإنتظار...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "المزيد...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "أعطِ اسمًا لمجموعة التبويبات هذه",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "إلغاء قفل مجموعة التبويبات هذه",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "قفل مجموعة التبويبات هذه",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "حذف النجمة من على مجموعة التبويبات هذه",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "وضع نجمة على مجموعة التبويبات هذه",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "مساعدة",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "وضع كل التبويبات في OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "ليس لديك حتى الآن أي علامات تبويب في OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "تصدير / استيراد عناوين URL",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "استيراد عناوين URL",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "الصق في قائمة URL ثم انقر على \"استيراد\" أدناه",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "تصدير عناوين URL",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "استيراد",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "تصدير",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "خيارات",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "ميزات",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "حول",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "آراء",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "عندما يكون لديك العديد من علامات التبويب المفتوحة، انقر فوق رمز OneTab على شريط أدوات المتصفح الخاص بك وسوف تظهر علامات التبويب المفتوحة هنا.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "المجموع: 0 علامات التبويب",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "المجموع: 1 علامة تبويب",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "المجموع: 2 علامات تبويب",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 علامة تبويب",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 علامة التبويب",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "القائمة التالية من عناوين URL يمكن أيضًا استيرادها مرة أخرى إلى OneTab على هذا الكمبيوتر أو كمبيوتر آخر",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "عندما يتم استعادة مجموعة علامات تبويب، أرسل علامات التبويب إلى:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "نافذة جديدة، ما لم يكن OneTab هو علامة التبويب الوحيدة في الإطار الحالي",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "نافذة جديدة دائمًا",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "النافذة الحالية دائمًا",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "علامات التبويب المثبتة:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "لا ترسل العلامات المثبتة إلى OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "لا يزال بإمكانك إرسال علامة تبويب مثبتة يدويًا إلى OneTab عن طريق النقر بزر الماوس الأيمن على صفحة الويب للوصول إلى قائمة OneTab، ثم النقر على \"إرسال علامة التبويب هذه فقط إلى OneTab\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "السماح بإرسال علامات التبويب المثبتة إلى OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "ملحوظة: تصبح علامة التبويب \"مثبتة\" عندما تنقر بزر الماوس الأيمن على علامة التبويب وتنقر على \"تثبيت علامة التبويب\". بعض الناس يفضلون جعل مواقع مثل فيسبوك وGmail مثبتة حتى يصلوا إليها بسهولة. سيقوم OneTab بتذكر ما إذا كانت علامة التبويب مثبتة أم لا عندما تستعيدها.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "بدء التشغيل:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "عرض OneTab عندما تفتح متصفح الويب الخاص بك لأول مرة",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "لا تفتح OneTab تلقائيًا",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "لفتح OneTab يدويًا، استخدم قائمة النقر بالماوس الأيمن واختر \"عرض OneTab\"",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "بعد النقر على زر \"استعادة الكل\" أو استعادة علامة تبويب واحدة:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "افتح علامة (علامات) التبويب وقم بإزالتها من قائمة OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "يمكنك الاستمرار في الضغط على Ctrl أو cmd أو shift لاستعادة علامة (علامات) التبويب دون إزالتها من OneTab. إذا أرسلت أيًا من مجموعات علامات التبويب الخاصة بك كـ\"مقفلة\" فإن علامات التبويب لم يتم إزالتها من OneTab إلا إذا قمت بفتح مجموعة علامات التبويب أولاً.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "إبقاءها في قائمة OneTab الخاصة بك",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "يمكن حذف الإدخالات يدويًا عن طريق الوقوف فوقها بالماوس والنقر على أيقونة X أو بالنقر على زر \"حذف الكل\".",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "التكرارات:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "السماح بالتكرارات",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "رفض التكرارات بهدوء",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "إذا كان OneTab يحتوي بالفعل على عنوان URL الخاص بعلامة تبويب، فلن تتم إضافته مرة أخرى. ينطبق هذا فقط عندما تنقر على أيقونة OneTab أو تستخدم قائمة النقر بزر الماوس الأيمن لإرسال علامات تبويب متعددة إلى OneTab. إذا استخدمت قائمة OneTab بالنقر بزر الماوس الأيمن لإرسال علامة تبويب محددة فقط إلى OneTab، وبعد ذلك سيتم السماح بالتكرار لعلامة التبويب المحددة تلك.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "مجموعات علانات التبويب المسماة",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "استبعاد DOMAIN.COM من OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "استبعاد هذا الموقع من OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "إرسال كافة علامات التبويب إلى OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "إرسال رابط الموقع هذا إلى OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "إرسال علامة التبويب هذه فقط إلى OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "إرسال كافة علامات التبويب باستثناء علامة التبويب هذه إلى OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "إرسال علامات التبويب على اليسار إلى OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "إرسال علامات التبويب على اليمين إلى OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "إرسال كل علامات التبويب من كل النوافذ إلى OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "إرسال كل علامات التبويب إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "إرسال رابط الويب هذا إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "إرسال علامة التبويب هذه إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "إرسال كل علامات التبويب باستثناء علامة التبويب هذه إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "إرسال علامات التبويب التي على اليسار إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "إرسال علامات التبويب التي على اليمين إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "إرسال كل علامات التبويب من جميع النوافذ إلى PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "وفر ما يصل إلى 95% من الذاكرة وقلل تراكم علامات التبويب في Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "قبل: 1981 ميجابايت مستخدمة",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "بعد: فقط 99 ميجابايت مستخدمة",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "تقليل الذاكرة بنسبة 95%",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "إضافة OneTab الآن",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "غير مطلوب التسجيل أو الاشتراك",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab متاح أيضًا لفايرفوكس",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "تحويل علامات التبويب إلى قائمة",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "تقليل استخدام الذاكرة بنسبة 95٪",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab متوفر حاليًا باللغة العربية!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "جديد!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "علامات تبويب كثيرة جدًا؟ حول علامات التبويب الخاصة بك إلى قائمة وقم بزيادة سرعة فايرفوكس",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "قبل: فوضى كثيرة بسبب علامات التبويب، المتصفح بطيء",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "بعد: سهولة فورية، استعادة كل علامات التبويب لاحقًا",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "العربية",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "اللغة:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

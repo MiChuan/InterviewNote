@@ -1,0 +1,379 @@
+{
+  "displayOneTab": {
+    "message": "Display OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "tab",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Save up to 95% memory and reduce tab clutter",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Send the current tab to OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Restore all",
+    "description":"The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Delete all",
+    "description":""
+  },
+  "createdPreceedingDate": {
+    "message": "Created",
+    "description":"IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Are you sure you want to delete this tab?",
+    "description":""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Are you sure you want to delete these tabs?",
+    "description":""
+  },
+  "unlockBeforeDeleting": {
+    "message": "To delete this tab group, you must unlock it first (via the 'More...' button)",
+    "description":"Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Share as web page",
+    "description":"The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Share all as web page",
+    "description":"All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Please wait...",
+    "description":"Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "More...",
+    "description":"Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Name this tab group",
+    "description":"Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Un-Lock this tab group",
+    "description":"Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Lock this tab group",
+    "description":"Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Un-Star this tab group",
+    "description":"a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Star this tab group",
+    "description":"a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Help",
+    "description":"gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Bring all tabs into OneTab",
+    "description":"Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "You do not yet have any tabs in OneTab",
+    "description":""
+  },
+  "exportImportUrls": {
+    "message": "Export / Import URLs",
+    "description":"Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Import URLs",
+    "description":"Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Paste in a list of URLs and then click Import below",
+    "description":"Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Export URLs",
+    "description":"Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Import",
+    "description":"Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Export",
+    "description":"Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Options",
+    "description":"Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Features",
+    "description":"Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "About",
+    "description":"Information about the software"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description":"Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "When you have multiple tabs open, click the OneTab icon on your browser toolbar and your open tabs will appear here.",
+    "description":""
+  },
+  "total0Tabs": {
+    "message": "Total: 0 tabs",
+    "description":"Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Total: 1 tab",
+    "description":"Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Total: 2 tabs",
+    "description":"Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 tab",
+    "description":"Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 tabs",
+    "description":"Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "The following list of URLs can also be imported back into OneTab on this or a different computer",
+    "description":""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "When a tab group is restored, send the tabs to:",
+    "description":"This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "A new window, unless OneTab is the only tab in the current window",
+    "description":""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Always a new window",
+    "description":""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Always the current window",
+    "description":""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Pinned tabs:",
+    "description":"Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Don't send pinned tabs to OneTab",
+    "description":"Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "You can still manually send a pinned tab to OneTab by right clicking within the web page to access the OneTab menu, and then clicking 'Send only this tab to OneTab'",
+    "description":"Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Allow pinned tabs to be sent to OneTab",
+    "description":"Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Note:  A tab becomes 'pinned' when you right click on the tab and click 'Pin tab'. Some people like to make sites such as Facebook or Gmail pinned so they can easily locate them. OneTab will remember whether a tab was pinned when you restore it.",
+    "description":"Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Startup:",
+    "description":"'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Display OneTab whenever you start your web browser for the first time",
+    "description":""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Do not open OneTab automatically",
+    "description":""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "To open OneTab manually, use the right click menu and choose 'Display OneTab'",
+    "description":""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "On clicking 'restore all' or restoring a single tab:",
+    "description":""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Open the tab(s) and remove them from your OneTab list",
+    "description":""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "You still can press ctrl, cmd or shift to restore the tab(s) without removing them from OneTab. If you set any of your tab groups as 'locked' then the tabs will not be removed from OneTab unless you unlock that tab group first.",
+    "description":""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Keep them in your OneTab list",
+    "description":""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "You can manually delete entries by hovering over them and clicking the X icon, or by clicking the 'delete all' button",
+    "description":""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplicates:",
+    "description":""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Allow duplicates",
+    "description":""
+  },
+  "optionDuplicatesReject": {
+    "message": "Silently reject duplicates",
+    "description":""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "If OneTab already contains the URL of a tab, it will not be added again. This only applies when you click the OneTab icon or use the right click menu to send multiple tabs to OneTab. If you use the right click OneTab menu to send only a specific tab to OneTab, then the duplicate will be allowed for that specific tab.",
+    "description":""
+  },
+  "namedTabGroups": {
+    "message": "Named tab groups",
+    "description":"Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Exclude DOMAIN.COM from OneTab",
+    "description":"Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Exclude this web site from OneTab",
+    "description":""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Send all tabs to OneTab",
+    "description":""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Send this web link to OneTab",
+    "description":""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Send only this tab to OneTab",
+    "description":""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Send all tabs except this tab to OneTab",
+    "description":""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Send tabs on the left to OneTab",
+    "description":""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Send tabs on the right to OneTab",
+    "description":""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Send all tabs from all windows to OneTab",
+    "description":""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Send all tabs to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Send this web link to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Send only this tab to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Send all tabs except this tab to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Send tabs on the left to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Send tabs on the right to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Send all tabs from all windows to PLACEHOLDER",
+    "description":"Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Save up to 95% memory and reduce tab clutter in Google Chrome",
+    "description":""
+  },
+  "memoryBefore1981": {
+    "message": "Before: 1981 MB used",
+    "description":""
+  },
+  "memoryAfter99": {
+    "message": "After: only 99 MB used",
+    "description":""
+  },
+  "95PctMemoryReduction": {
+    "message": "95% memory reduction",
+    "description":""
+  },
+  "addOneTabNow": {
+    "message": "Add OneTab now",
+    "description":"This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "No signup or registration required",
+    "description":""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab is also available for Firefox",
+    "description":""
+  },
+  "convertTabsIntoAList": {
+    "message": "Convert tabs into a list",
+    "description":""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Reduce memory usage by 95%",
+    "description":""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab is now available in English!",
+    "description":"Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "New!",
+    "description":""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Too many tabs? Convert your tabs into a list and speed up Firefox",
+    "description":""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Before: Lost in a mess of tabs, browser is slow",
+    "description":""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "After: Instant relief, quickly restore tabs later",
+    "description":""
+  },
+  "userLanguage": {
+    "message": "English",
+    "description":"Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Language:",
+    "description":"Title shown above the list of languages the user can choose from"
+  }
+
+}

@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Afișează OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "filă",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Economisește memoria până la 95% și redu dezordinea filele",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Trimite fila actuală către OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Restaurează tot",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Șterge tot",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Creat(ă)",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Ești sigur că vrei să ștergi această filă?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Ești sigur că vrei să ștergi aceste file?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Pentru a șterge acest grup de file, trebuie mai întâi să îl deblochezi (prin botonul „Mai multe...”)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Distribuie ca pagină web",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Distribuie totul ca pagină web",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Te rugăm să aștepți...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Mai multe...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Denumește acest grup de file",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Deblochează acest grup de file",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Blochează acest grup de file",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Elimină Asteriscul acestui grup de file",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Aplică un Asterisc acestui grup de file",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Ajutor",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Adu toate filele în OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Încă nu ai file în OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportă/Importă URL-uri",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importă URL-uri",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Inserează o listă a URL-urilor și apoi apasă pe butonul Importă de mai jos",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exportă URL-urile",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importă",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportă",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Opțiuni",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Caracteristici",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Despre",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Reacții",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Când ai mai multe file deschise, apasă pe pictograma OneTab de pe bara de instrumente a browser-ului și filele deschise vor apărea aici.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Total: 0 file",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Total: 1 filă",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Total: 2 filă",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 filă",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 file",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Următoarea listă de URL-uri poate fi și ea importată înapoi în OneTab de pe acest computer sau de pe un altul",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Când un grup de file este restaurat, trimite filele către:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "O nouă fereastră, dacă nu cumva OneTab este singura filă în fereastra actuală",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Întotdeauna o nouă fereastră",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Întotdeauna fereastra actuală",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "File fixate:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Nu trimite filele fixate către OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Totuși, poți trimite manual o filă fixată către OneTab prin click dreapta în interiorul paginii web pentru accesarea meniului OneTab, apoi apăsând pe ”Trimite doar această filă către OneTab”",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Permite filelor fixate să fie trimise către OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Notă: O filă devine „fixată” atunci când faci clic dreapta pe filă și clic pe „Fixează fila”. Unora le place să fixeze site-uri precum Facebook sau Gmail, pentru a le localiza cu ușurință. OneTab își va reaminti dacă o filă a fost fixată atunci când îl restaurezi.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Pornire:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Afișează OneTab oricând pornești browser-ul web pentru prima dată",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Nu deschide OneTab în mod automat",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Pentru a deschide manual OneTab, folosește meniul clicului dreapta și alege „Afișează OneTab”",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Când apeși pe „restaurează tot” sau restaurează un singur tab:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Deschide fila/filele și elimină-le din lista ta OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Totuși, poți apăsa ctrl, cmd sau shift pentru a restaura fila/filele fără să le elimini din OneTab. Dacă stabilești oricare dintre grupurile tale de file drept „blocat”, atunci foșeșe nu vor fi șterse din OneTab decât dacă, mai întâi, deblochezi acel grup de file.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Păstrează-le în lista ta OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Poți șterge manual intrările trecând peste ele cu mouse-ul și apăsând pe pictograma X, sau apăsând pe butonul „elimină tot”",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Copii:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Permite copiile",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Respinge copiile în mod tacit",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Dacă OneTab conține deja URL-ul unui tab, acesta nu va fi adăugat din nou. Acest lucru se aplică doar atunci când apeși pe pictograma OneTab sau folosești meniul clicului dreapta pentru a trimite mai multe file către OneTab. Dacă folosești meniul clic dreapta al OneTab pentru a trimite doar o anumită filă către OneTab, atunci pentru acea filă este permisă o copie.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Grupuri de file denumite",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Exclude DOMAIN.COM din OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Exclude acest website din OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Trimite toate filele către OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Trimite acest link web către OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Trimite numai această filă către OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Trimite toate filele cu excepția acestuia către OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Trimite filele din stânga către OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Trimite filele din dreapta către OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Trimite toate filele din toate ferestrele către OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Trimite toate filele către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Trimite acest link web către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Trimite numai această filă către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Trimite toate filele cu excepția acestui tab către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Trimite filele din stânga către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Trimite filele din dreapta către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Trimite toate filele din toate ferestrele către PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Salvează memoria până la 95% și redu dezordinea tab-urilor în Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Înainte: 1981 MB utilizați",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "După: numai 99 MB utilizați",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "Reducere memorie 95%",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Adaugă OneTab acum",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Nu sunt necesare înscrierea sau înregistrarea",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab este, de asemenea, disponibil pentru Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Convertește filele într-o listă",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Redu utilizarea memoriei cu 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab este acum disponibil în română!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Nou!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Prea multe file? Convertește filele tale într-o listă și mărește viteza Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Înainte: Pierdut într-o harababură de file, browser-ul este lent",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "După: destindere imediată, restaurează rapid filele mai târziu",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Română",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Limbă:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

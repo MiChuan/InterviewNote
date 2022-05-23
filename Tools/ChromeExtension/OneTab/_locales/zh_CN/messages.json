@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "显示OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "标签页",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "节省高达95％的内存，并减轻标签页混乱现象",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "发送当前标签页至OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "恢复全部",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "删除全部",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "创建于",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "您确定要删除这个标签页吗？",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "您确定要删除这些标签页吗？",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "要删除此标签页组，必须先解锁（通过“更多...”按钮解锁）",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "分享为网页",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "全部分享为网页",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "请稍候...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "更多...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "命名此标签页组",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "取消锁定此标签页组",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "锁定此标签页组",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "取消此标签页组此星形标记",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "星形标记标签页组",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "帮助",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "发送全部标签页至OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "您的OneTab中还没有任何标签页",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "导出/导入网址",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "导入网址",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "粘贴到网址列表，然后点击下面的导入",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "导出网址",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "导入",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "导出",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "选项",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "特色",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "关于",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "反馈",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "当您有多个标签页打开时，点击浏览器工具栏上的OneTab图标，您打开的标签页会出现在这里。",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "总计：0个标签页",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "总计：1个标签页",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "总计：2个标签页",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1个标签页",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2个标签页",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "下面的网址列表也可以导回这台电脑或其他电脑的OneTab",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "标签页组恢复后，发送标签页至：",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "新窗口，除非OneTab是当前窗口的唯一标签页",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "始终新窗口",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "始终当前窗口",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "固定标签页：",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "不要发送固定标签页至OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "您仍然可以手动发送固定标签页至OneTab。方法：在网页内点击右键可访问OneTab菜单，然后点击“仅发送此标签页至OneTab”",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "允许将固定标签页发送至OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "注意：当您在标签页上点击右键并点击“固定标签页”，标签页变为“固定”。有些人喜欢固定Facebook或Gmail等网站，以便可以轻松找到它们。在恢复时，OneTab会记得标签页是否固定。",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "启动：",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "每次启动Web浏览器时显示OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "不要自动打开OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "要手动打开OneTab，使用右键菜单并选择“显示OneTab”",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "点击“恢复全部”或恢复单个标签页：",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "打开标签页并将其从OneTab列表中删除",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "您仍然可以按ctrl、cmd或shift来恢复标签页，而且不会将其从OneTab中删除。如果您将任何标签页组设置为“锁定”，那么这些标签页将不会从OneTab中删除，除非您先解锁此标签页组。",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "将它们保留在您的OneTab列表",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "您可以将鼠标悬停在条目上并点击X图标，或点击“删除全部”按钮，从而手动删除条目",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "重复：",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "允许重复",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "默默拒绝重复",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "如果OneTab已经包含标签页的网址，它不会再次添加。这种情况只适用于您点击OneTab图标或使用右键菜单发送多个标签页至OneTab。如果使用右键OneTab菜单来发送一个特定的标签页至OneTab，则这个特定标签页允许重复。",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "已命名标签页组",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "在OneTab中排除DOMAIN.COM",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "在OneTab排除这个网站",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "发送全部标签页至OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "发送此网页链接致OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "仅发送此标签页至OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "发送除此标签页以外的全部标签页至OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "发送左侧标签页至OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "发送右侧标签页至OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "发送全部窗口的全部标签页至OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "发送全部标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "发送此网站链接至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "仅发送此标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "发送除此标签页以外的全部标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "发送左侧标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "发送右侧标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "发送全部窗口的全部标签页至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "节省高达95％的内存，减轻Google Chrome浏览器的标签页混乱现象",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "之前：使用1981MB",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "之后：仅使用99MB",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "节省95％的内存",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "现在添加OneTab",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "无需注册或登记",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab也可用于Firefox浏览器",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "将标签页转换成一个列表",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "内存使用减少95％",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab现在提供简体中文版！",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "新！",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "标签页太多了？将您的标签页转换成一个列表，加快Firefox浏览器运行速度",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "之前：迷失在凌乱的标签页中，浏览器运行缓慢",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "之后：即可解脱，稍后迅速恢复标签页",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "简体中文",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "语言：",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

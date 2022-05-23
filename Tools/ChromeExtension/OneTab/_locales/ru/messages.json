@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Показывать OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "вкладка",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Сэкономьте до 95% памяти и наведите порядок во вкладках",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Отправить текущую вкладку в OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Восстановить все",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Удалить все",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Создано",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Вы уверены, что хотите удалить эту вкладку?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Вы уверены, что хотите удалить эти вкладки?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Чтобы удалить эту группу вкладок, необходимо сначала ее разблокировать (с помощью кнопки 'Еще...')",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Опубликовать на веб-странице",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Опубликовать все на веб-странице",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Пожалуйста, подождите...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Еще...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Присвоить название этой группе вкладок",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Разблокировать эту группу вкладок",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Блокировать эту группу вкладок",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Снять звездочку с этой группы вкладок",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Отметить эту группу вкладок звездочкой",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Помощь",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Добавить все вкладки в OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "У вас пока нет вкладок в OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Экспорт / Импорт URL",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Импорт URL",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Вставьте в список URL-адресов, а затем нажмите кнопку Импорт ниже",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Экспорт URL",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Импорт",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Экспорт",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Опции",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Возможности",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "О программе",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Обратная связь",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Если у вас есть открыто несколько вкладок, щелкните значок OneTab на панели инструментов браузера, и ваши открытые вкладки появятся здесь.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Всего: 0 вкладок",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Всего: 1 вкладка",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Всего: 2 вкладки",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 вкладка",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 вкладки",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Следующий список URL-адресов может также быть импортирован обратно в OneTab на этом или другом компьютере",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "При восстановлении группы вкладок, отправлять вкладки в:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Новое окно, если OneTab не является единственной вкладкой в текущем окне",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Всегда новое окно",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Всегда текущее окно",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Закрепленные вкладки:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Не отправлять закрепленные вкладки в OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Вы все еще можете вручную отправить закрепленную вкладку в OneTab, щелкнув правой кнопкой мыши на веб-странице для доступа к меню OneTab, а затем нажав кнопку \"Отправить в OneTab только эту вкладку\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Разрешить отправку закрепленных вкладок в OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Примечание: Вкладка становится \"закрепленной\" после щелчка правой кнопкой мыши на вкладке и нажатия \"закрепить вкладку\". Многие пользователи любят закреплять такие сайты, как Facebook или Gmail, чтобы легко находить их. OneTab запомнит, была ли вкладка закреплена, при ее восстановлении.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Запуск:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Показывать OneTab при первом запуске вашего браузера",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Не открывать OneTab автоматически",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Чтобы открыть OneTab вручную, щелкните правой кнопкой мыши и выберите \"Показать OneTab\"",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "При нажатии \"восстановить все\" или восстановлении отдельной вкладки:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Открыть вкладку (вкладки) и удалить их из списка OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Вы также можете нажать Ctrl, Cmd или Shift, чтобы восстановить одну или более вкладок, не удаляя их из OneTab. Если вы блокируете любую из ваших групп вкладок, вкладки не будут удалены из OneTab, если только вы сначала не разблокируете эту группу вкладок.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Сохраняйте их в вашем списке OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Вы можете вручную удалить записи, наведя на них курсор и нажав значок X, или нажав кнопку \"Удалить все\"",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Дубликаты:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Разрешить дубликаты",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Молча отклонять дубликаты",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Если OneTab уже содержит URL-адрес вкладки, она не будет добавлена снова. Это происходит только при нажатии на значок OneTab или использовании контекстного меню для отправки нескольких вкладок в OneTab. Если вы используете контекстное меню OneTab для отправки только определенной вкладки в OneTab, дубликат будет разрешен для этой конкретной вкладки.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Именованные группы вкладок",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Исключить DOMAIN.COM из OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Исключить этот сайт из OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Отправить все вкладки в OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Отправить эту ссылку в OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Отправить в OneTab только эту вкладку",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Отправить в OneTab все вкладки, кроме этой",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Отправить вкладки слева в OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Отправить вкладки справа в OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Отправить все вкладки из всех окон в OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Отправить все вкладки в PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Отправить эту ссылку в PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Отправить в PLACEHOLDER только эту вкладку",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Отправить в PLACEHOLDER все вкладки, кроме этой",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Отправить вкладки слева в PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Отправить вкладки справа в PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Отправить все вкладки из всех окон в PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Сэкономьте до 95% памяти и уменьшите беспорядок в закладках Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "До: используется 1981 MB",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "После: используется только 99 MB",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "Экономия памяти 95%",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Добавить OneTab сейчас",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Не требует регистрации",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab также доступен для Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Преобразование вкладок в список",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Сокращение использования памяти на 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab теперь доступен на русском!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "New!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Слишком много вкладок? Преобразуйте вкладки в список и ускорьте Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "До: Куча вкладок в беспорядке, браузер тормозит",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "После: Мгновенное ускорение, возможность быстро восстановить вкладки позже",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Русский",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Язык:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

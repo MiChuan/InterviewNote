@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Mutasd a OneTabet",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "lap",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Szabadítson fel 95% memóriát és szüntesse meg a lapok káoszát",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Küldd az aktuális lapot a OneTabbe",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Állítsd helyre az összeset",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Töröld az összeset",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Elkészült",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Biztosan törli ezt a lapot?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Biztosan törli ezeket a lapokat?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "A lapcsoport törlése előtt oldja fel a csoportot (a „Több...” gombbal)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Oszd meg weboldalként",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Oszd meg az összeset weboldalként",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Kérem, várjon",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Több...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Nevezd el ezt a lapcsoportot",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Oldd fel ezt a lapcsoportot",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Zárd le ezt a lapcsoportot",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Vedd le a csillagozást a lapcsoportról",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Csillagozd meg a lapcsoportot",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Segítség",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Rendezd az összes lapot a OneTabbe",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Még egyetlen lap sincs a OneTabben",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportálj/importálj URL-eket",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importálj URL-eket",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Másoljon ide egy URL-listát, majd kattintson az importálás gombra",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exportálj URL-eket",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importálj",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportálj",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Beállítások",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Jellemzők",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "A programról",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Visszajelzés",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Ha több lapot nyitott meg, kattintson a böngészője eszköztárában a OneTab ikonra, és a megnyitott lapok itt fognak megjelenni.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Összesen: 0 lap",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Összesen: 1 lap",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Összesen: 2 lap",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 lap",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 lap",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Az következő URL-listát ezen vagy egy másik számítógépen is importálhatja a OneTabbe",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Ha egy lapcsoportot helyreállítok, ide küldd a lapokat:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Új ablakba, kivéve, ha a OneTab az egyetlen lap az aktuális ablakban",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Mindig új ablakba",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Mindig az aktuális ablakba",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Rögzített lapok:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "A rögzített lapokat ne küldd a OneTabbe",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Rögzített lapot is küldhet a OneTabbe, ha jobb gombbal kattintva megnyitja a OneTab menüjét, majd rákattint a „Küldd ezt az egy lapot a OneTabbe” pontra",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "A rögzített lapok is mehetnek a OneTabbe",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Megjegyzés: egy lap akkor kerül rögzítésre, ha jobb gombbal rákattint a lapra, majd a „Rögzítsd a lapot” pontra. Vannak, akik szeretnek rögzíteni bizonyos lapokat, például a Facebookot vagy a Gmail-t, mert így könnyen megtalálják. A OneTab emlékszik rá, hogy egy lap rögzítve volt-e, amikor helyreállítja.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Kezdés:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Mutasd a OneTabet a böngésző első futtatása alkalmával",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Ne nyisd meg a OneTabet automatikusan",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Ha kézzel szeretné megnyitni a OneTabet, használja a jobb gomb menüjét, majd a „Mutasd a OneTabet\".",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Az „Állítsd helyre az összeset” menü, illetve egy-egy lap helyreállítása:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Nyissa meg a lapo(ka)t és távolítsa el őket a OneTab listájáról",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "A ctrl, a cmd vagy a shift gomb megnyomásával visszaállíthatja a lapo(ka)t anélkül, hogy törölné őket a OneTabből. Ha egy lapcsoportot lezár, a lapok nem lesznek eltávolítva a OneTabből, csak azután, hogy feloldotta az adott lapcsoportot.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Tartsa ezeket a OneTab listáján",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "A bejegyzéseket kézzel is eltávolíthatja: húzza fölé az egeret, majd kattintson az X jelre vagy a „Töröld az összeset” gombra",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Másodpéldányok:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Engedélyezd a másodpéldányokat",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Csendben utasítsd el a másodpéldányokat",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "A OneTabben már szerepel egy URL, nem lesz újra hozzáadva. Ez csak akkor igaz, ha a OneTab ikonra kattint, vagy a jobb gomb menüjével több lapot is a OneTabbe küld. Ha a OneTab jobb gombos menüjéből csak egy bizonyos lapot küld a OneTabbe, az adott lap esetében engedélyezve lesz a másodpéldány.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Elnevezett lapcsoportok",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Zárd ki a DOMAIN.COM oldalt a OneTabből",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Zárd ki ezt a honlapot a OneTabből",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Küldd az összes lapot a OneTabbe",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Ezt a weblinket küldd a OneTabbe",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Csak ezt a lapot küldd a OneTabbe",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Az összes többi lapot küldd a OneTabbe",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "A balra levő lapokat küldd a OneTabbe",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "A jobbra levő lapokat küldd a OneTabbe",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Az összes ablak összes lapját küldd a OneTabbe",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Az összes lapot küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Ezt a weblinket küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Csak ezt a lapot küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Az összes többi lapot küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "A balra levő lapokat küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "A jobbra levő lapokat küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Az összes ablak összes lapját küldd ide: PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Szabadítson fel 95% memóriát és szüntesse meg a lapok káoszát a Google Chrome-ban",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Előtte: 1981 MB memóriaigény",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Utána: csupán 99 MB memóriaigény",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95%-os memóriaigény-csökkentés",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Add hozzá a OneTabet most",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Nincs szükség bejelentkezésre vagy regisztrációra",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "A OneTab Firefoxra is előrhető",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Alakítsa át a lapokat listává",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Csökkentse a memóriaigényt 95%-kal",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "A OneTab immár magyarul is elérhető!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Új!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Elég a lapokból? Alakítsa át a lapjait listává és gyorsítsa fel a Firefoxot",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Előtte: kavargás a lapok dzsungelében, lassú böngésző",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Utána: azonnali megkönnyebbülés, később bármely lap helyreállítható",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "magyar",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Nyelv:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

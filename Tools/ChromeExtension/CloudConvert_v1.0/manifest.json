@@ -1,0 +1,28 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "CloudConvert",
+  "description": "convert anything to anything",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "container" : "GOOGLE_DRIVE",
+  "api_console_project_id" : "199590644126",
+  "icons": {
+    "128": "icon_128.png",
+    "64": "icon_64.png",
+    "32": "icon_32.png",
+    "16": "icon_16.png"
+  },
+  "app": {
+    "urls": [
+      "https://cloudconvert.com/"
+    ],
+    "launch": {
+      "web_url": "https://cloudconvert.com/"
+    }
+  },
+  "permissions": [
+    "notifications"
+  ]
+
+}

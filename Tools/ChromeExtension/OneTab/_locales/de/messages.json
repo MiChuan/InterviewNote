@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "OneTab anzeigen",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "Tab",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Sparen Sie bis zu 95 % Arbeitsspeicher und räumen Sie Ihre Tabs auf",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Aktuelles Tab an OneTab senden",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Alle wiederherstellen",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Alle löschen",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Erstellt",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Möchten Sie dieses Tab wirklich löschen?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Möchten Sie diese Tabs wirklich löschen?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Die müssen diese Tab-Gruppe entsperren (klicken Sie dazu auf „Mehr...“), wenn Sie sie löschen möchten",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Als Webseite teilen",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Alle als Webseite teilen",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Bitte warten...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Mehr...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Diese Tab-Gruppe benennen",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Diese Tab-Gruppe entsperren",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Diese Tab-Gruppe sperren",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Markierung für diese Tab-Gruppe aufheben",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Diese Tab-Gruppe markieren",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Hilfe",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Alle Tabs in OneTab speichern",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Sie haben noch keine Tabs in OneTab gespeichert",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "URLs exportieren / importieren",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "URLs importieren",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "In eine URL-Liste einfügen und dann auf Importieren klicken",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "URLs exportieren",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importieren",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportieren",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Optionen",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Funktionen",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Über",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Wenn Sie mehrere Tabs geöffnet haben, klicken Sie in Ihrer Browser-Werkzeugleiste auf das OneTab-Symbol, damit Ihre geöffneten Tabs hier erscheinen.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Gesamt: 0 Tabs",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Gesamt: 1 Tab",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Gesamt: 2 Tabs",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 Tab",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 Tabs",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Die folgende URL-Liste kann auch auf diesem oder einem anderen Computer zurück in OneTab importiert werden",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Wenn eine Tab-Gruppe wiederhergestellt wird, Tabs hier anzeigen:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "In einem neuen Fenster, sofern OneTab das einzige Tab im aktuellen Fenster ist",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Immer in einem neuen Fenster",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Immer im aktuellen Fenster",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Angeheftete Tabs:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Angeheftete Tabs nicht an OneTab senden",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Sie können ein angeheftetes Tab trotzdem manuell an OneTab senden, indem Sie innerhalb der Webseite rechts klicken, um das OneTab-Menü aufzurufen, und anschließend auf „Nur dieses Tab an OneTab senden“ klicken",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Zulassen, dass angeheftete Tabs an OneTab gesendet werden",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Hinweis: Ein Tab wird angeheftet, indem Sie rechts auf das Tab klicken und dann „Tab anheften“ auswählen. Manche Anwender heften Seiten wie Facebook oder Gmail an, damit sie schnell darauf zugreifen können. OneTab erinnert sich beim Wiederherstellen eines Tabs daran, ob es angeheftet war.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Start:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "OneTab immer anzeigen, wenn Ihr Webbrowser zum ersten Mal gestartet wird",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "OneTab nicht automatisch öffnen",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Wählen Sie im Kontextmenü „OneTab anzeigen“ aus, um OneTab manuell zu öffnen",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Beim Klicken auf „Alle wiederherstellen“ bzw. beim Wiederherstellen eines einzelnen Tabs:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Tab(s) öffnen und aus der OneTab-Liste entfernen",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Sie können dennoch Strg, cmd oder die Umschalttaste drücken, wenn Sie das/die Tab(s) wiederherstellen möchten, ohne Sie aus OneTab zu entfernen. Wenn Sie Tab-Gruppen „gesperrt“ haben, werden diese Tabs nicht aus OneTab entfernt, bevor Sie die Tab-Gruppe nicht entsperrt haben.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Tabs in Ihrer OneTab-Liste belassen",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Sie können Einträge manuell löschen, indem Sie mit dem Mauszeiger darüber fahren und das X-Symbol oder die Schaltfläche „Alle löschen“ anklicken.",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplikate:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Duplikate zulassen",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Duplikate ohne Meldung ablehnen",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Wenn OneTab die URL eines Tabs bereits enthält, so wird sie nicht erneut hinzugefügt. Dies gilt nur, wenn Sie auf das OneTab-Symbol klicken oder das Kontextmenü verwenden, um mehrere Tabs an OneTab zu senden. Wenn Sie das Kontextmenü von OneTab verwenden, um nur ein bestimmtes Tab an OneTab zu senden, dann wird das Duplikat für das jeweilige Tab zugelassen",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Benannte Tab-Gruppen",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "DOMAIN.COM von OneTab ausschließen",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Diese Website von OneTab ausschließen",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Alle Tabs an OneTab senden",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Diesen Weblink an OneTab senden",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Nur dieses Tab an OneTab senden",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Alle Tabs außer dieses an OneTab senden",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Tabs auf der linken Seite an OneTab senden",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Tabs auf der rechten Seite an OneTab senden",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Alle Tabs aus allen Fenstern an OneTab senden",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Alle Tabs an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Diesen Weblink an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Nur dieses Tab an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Alle Tabs außer dieses an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Tabs auf der linken Seite an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Tabs auf der rechten Seite an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Alle Tabs aus allen Fenstern an PLACEHOLDER senden",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Sparen Sie bis zu 95 % Arbeitsspeicher und räumen Sie Ihre Tabs in Google Chrome auf",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Vorher: 1981 MB verwendet",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Nachher: nur 99 MB verwendet",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95 % weniger Arbeitsspeicher verwendet",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "OneTab jetzt hinzufügen",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Keine Anmeldung oder Registrierung erforderlich",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab ist auch für Firefox verfügbar",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Wandeln Sie Tabs in eine Liste um",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Verringern Sie die Arbeitsspeicherauslastung um 95 %",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab ist jetzt auf Deutsch verfügbar!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Neu!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Zu viele Tabs? Wandeln Sie Ihre Tabs in eine Liste um und beschleunigen Sie Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Vorher: Ein Durcheinander aus Tabs, der Browser ist langsam",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Nachher: Sofortige Abhilfe, Tabs können Sie später wiederherstellen",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Deutsch",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Sprache:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

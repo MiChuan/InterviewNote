@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Hiển thị OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "tab",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Tiết kiệm đến 95% bộ nhớ và giảm tình trạng loạn tab",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Gửi tab hiện tại vào OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Khôi phục tất cả",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Xóa tất cả",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Đã tạo",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Bạn có chắc muốn xóa tab này không?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Bạn có chắc muốn xóa các tab này không?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Để xóa nhóm tab này, trước tiên bạn phải mở khóa nhóm tab (qua nút \"Thêm...\")",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Chia sẻ dưới dạng trang web",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Chia sẻ tất cả dưới dạng trang web",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Vui lòng chờ...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Thêm...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Đặt tên cho nhóm tab này",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Mở khóa nhóm tab này",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Khóa nhóm tab này",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Bỏ gắn sao nhóm tab này",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Gắn sao nhóm tab này",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Trợ giúp",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Chuyển tất cả các tab vào OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Bạn chưa có tab nào trong OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Xuất / Nhập URL",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Nhập URL",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Dán vào một danh sách các URL rồi sau đó bấm Nhập bên dưới",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Xuất URL",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Nhập",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Xuất",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Tùy chọn",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Tính năng",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Giới thiệu",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Phản hồi",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Khi bạn có nhiều tab đang mở, hãy bấm vào biểu tượng OneTab trên thanh công cụ trình duyệt của bạn, các tab đang mở của bạn sẽ xuất hiện ở đây.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Tổng cộng: 0 tab",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Tổng cộng: 1 tab",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Tổng cộng: 2 tab",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 tab",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 tab",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Danh sách các URL sau cũng có thể được nhập trở lại vào OneTab trên máy tính này hoặc máy tính khác",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Khi một nhóm tab được khôi phục, hãy gửi các tab vào:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Một cửa sổ mới, trừ khi OneTab là tab duy nhất trong cửa sổ hiện tại",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Luôn vào một cửa sổ mới",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Luôn vào cửa sổ hiện tại",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Các tab đã ghim:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Không gửi các tab đã ghim vào OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Bạn vẫn có thể gửi thủ công một tab đã ghim vào OneTab bằng cách bấm chuột phải trong phạm vi trang web để truy cập vào menu OneTab, rồi sau đó bấm vào \"Chỉ gửi tab này vào OneTab\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Cho phép gửi các tab đã ghim vào OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Lưu ý: Một tab sẽ có trạng thái \"đã ghim\" khi bạn bấm chuột phải vào tab đó rồi bấm vào \"Ghim tab\". Một số người thích ghim các trang web như Facebook hay Gmail để họ có thể dễ dàng xác định vị trí của các trang này. OneTab sẽ nhớ liệu một tab đã được ghim hay chưa khi bạn khôi phục lại nó.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Khởi động:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Hiển thị OneTab bất cứ khi nào bạn khởi động trình duyệt web của bạn vào lần đầu tiên",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Không tự động mở OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Để mở OneTab thủ công, hãy sử dụng menu bấm chuột phải và chọn \"Hiển thị OneTab\"",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Khi bấm vào \"khôi phục tất cả\" hoặc khôi phục một tab duy nhất:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Mở (các) tab này và xóa khỏi danh sách OneTab của bạn",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Bạn vẫn có thể nhấn Ctrl, Cmd hoặc Shift để khôi phục lại (các) tab mà không cần xóa các tab này khỏi OneTab. Nếu bạn thiết lập bất kỳ nhóm tab nào của bạn là \"đã khóa\", khi đó các tab này sẽ không bị xóa khỏi OneTab trừ khi bạn mở khóa nhóm tab đó trước tiên.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Lưu các tab trong danh sách OneTab của bạn",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Bạn có thể xóa thủ công các mục đã nhập bằng cách di chuột qua các mục này và bấm vào biểu tượng X, hoặc bằng cách bấm vào nút \"xóa tất cả\"",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Trùng lặp:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Cho phép trùng lặp",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Âm thầm từ chối trùng lặp",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Nếu OneTab đã chứa URL của một tab, URL này sẽ không được thêm vào lại lần nữa. Tính năng này chỉ áp dụng khi bạn bấm vào biểu tượng OneTab hoặc sử dụng menu bấm chuột phải để gửi nhiều tab vào OneTab. Nếu bạn sử dụng menu bấm chuột phải vào OneTab để gửi một tab cụ thể duy nhất vào OneTab, khi đó tab cụ thể này sẽ cho phép trùng lặp .",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Các nhóm tab đã đặt tên",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Loại bỏ DOMAIN.COM khỏi OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Loại bỏ trang web này khỏi OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Gửi tất cả các tab vào OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Gửi liên kết web này vào OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Chỉ gửi tab này vào OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Gửi tất cả các tab trừ tab này vào OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Gửi các tab bên trái vào OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Gửi các tab bên phải vào OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Gửi tất cả các tab từ tất cả các cửa sổ vào OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Gửi tất cả các tab vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Gửi liên kết web này vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Chỉ gửi tab này vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Gửi tất cả các tab trừ tab này vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Gửi các tab bên trái vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Gửi các tab bên phải vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Gửi tất cả các tab từ tất cả các cửa sổ vào PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Tiết kiệm đến 95% bộ nhớ và giảm trình trạng loạn tab trong Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Trước: 1981 MB đã sử dụng",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Sau: chỉ có 99 MB đã sử dụng",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "Giảm 95% bộ nhớ",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Thêm OneTab ngay",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Không cần đăng ký",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab cũng có sẵn cho Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Chuyển đổi các tab thành một danh sách",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Giảm 95% tiêu thụ bộ nhớ",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab hiện đã có phiên bản tiếng Việt!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Mới!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Quá nhiều tab? Hãy chuyển đổi các tab của bạn thành một danh sách và tăng tốc độ cho Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Trước: Bị rối vì quá nhiều tab lộn xộn, còn trình duyệt thì chạy chậm",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Sau: Giải phóng tab tức thì, nhanh chóng khôi phục các tab sau đó",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Tiếng Việt",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Ngôn ngữ:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

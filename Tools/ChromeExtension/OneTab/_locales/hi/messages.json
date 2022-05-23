@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "OneTab दिखाएं",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "टैब",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "95% तक मेमोरी बचाता है और टैब की भीड़ कम करता है",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "वर्तमान टैब OneTab को भेजें",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "सभी बहाल करें",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "सभी डिलीट करें",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "बनाए गए तारीख",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "क्या आप इस टैब को डिलीट करने के लिए सुनिश्चित हैं?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "क्या आप इन टैब्स को डिलीट करने के लिए सुनिश्चित हैं?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "इस टैब समूह को डिलीट करने के लिए, आप पहले इसे अनलॉक करना होगा (‘अधिक...’ बटन के द्वारा)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "वेब पेज के तौर पर साझा करें",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "सभी को वेब पेज के तौर पर साझा करें",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "कृपया प्रतीक्षा करें...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "अधिक...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "इस टैब समूह को नाम दें",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "इस टैब समूह को अनलॉक करें",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "इस टैब समूह को लॉक करें",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "इस टैब समूह को अन-स्टार करें",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "इस टैब समूह को स्टार करें",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "सहायता",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "सभी टैब्स को OneTab में लाएं",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "आपके पास अभी तक OneTab में कोई टैब्स नहीं हैं",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "एक्सपोर्ट/इम्पोर्ट URLs",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "इम्पोर्ट URLs",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "URLs की लिस्ट में इम्पोर्ट करें और फिर नीचे इम्पोर्ट बटन क्लिक करें",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "एक्सपोर्ट URLs",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "इम्पोर्ट",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "एक्सपोर्ट",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "विकल्प",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "फीचर्स",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "हमारे बारे में",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "फीडबैक",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "जब आपके पास कई टैब्स खुले हों, अपने ब्राउजर की टूलबार पर OneTab आइकन क्लिक करें और आपके खुले हुए टैब्स यहां दिखेंगे।",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "कुलः 0 टैब्स",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "कुलः 1 टैब",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "कुलः 2 टैब्स",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 टैब",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 टैब्स",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "URLs की निम्नलिखित लिस्ट भी इस या एक अलग कंप्टूयर पर OneTab में वापस इम्पोर्ट की जा सकती है",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "जब एक टैब समूह बहाल किया जाए, टैब्स को यहां भेजेः",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "एक नई विंडो, जब तक OneTab वर्तमान विंडो में एकमात्र टैब है",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "हमेशा एक नई विंडो",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "हमेशा वर्तमान विंडो",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "पिन किए गए टैब्सः",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "पिन किए गए टैब्स OneTab पर न भेजें",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "आप अभी भी एक पिन किए गए टैब को OneTab पर OneTab मेन्यू तक पहुंचने के लिए वेब पेज के अंदर राइट क्लिक कर स्वयं भेज सकते हैं, और फिर ‘सेंड ओनली दिस टैब टू OneTab’ क्लिक करें",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "पिन किए गए टैब्स को OneTab पर भेजने की अनुमति दें",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "ध्यान देः एक टैब तब ‘पिन किया गया’ बन जाता है जब आप टैब पर राइट क्लिक करते हैं और ‘पिन टैब’ को क्लिक करते हैं। कुछ व्यक्ति फेसबुक या जीमेल जैसी साइट्स को पिन करना पसंद करते हैं जिससे वे उन्हें आसानी से खोज सकें। OneTab यह याद रखेगा कि एक टैब पिन किया गया था या नहीं जब आप उसे बहाल करेंगे।",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "स्टार्टअपः",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "OneTab को दिखाएं जब भी आप अपना वेब ब्राउजर पहली बार शुरू करते हैं",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "OneTab को ऑटोमैटिकली न खोलें",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "OneTab को स्वयं खोलने के लिए, राइट क्लिक मेन्यू का उपयोग करें और ‘डिस्प्ले OneTab’ को चुनें",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "‘रीस्टोर ऑल’ पर क्लिक करने पर या एक टैब बहाल करने परः",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "टैब (टैब्स) को खोलें और उसे अपनी OneTab लिस्ट से हटाएं",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "आप अभी भी टैब (टैब्स) को OneTab से हटाए बिना ctrl, cmd या shift दबाकर बहाल कर सकते हैं। अगर आप अपने टैब समूहों को ‘लॉक्ड’ के तौर पर तय करते हैं तो टैब्स OneTab से तब तक नहीं हटाए जाएंगे जब तक आप पहले उस टैब समूह को अनलॉक नहीं करते।",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "उन्हें अपनी OneTab लिस्ट में रखें",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "आप एंट्रीज को स्वंय उनके ऊपर जाकर और X आइकन को क्लिक कर, या ‘डिलीट ऑल’ बटन को क्लिक कर डिलीट कर सकते हैं",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "डुप्लिकेट्सः",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "डुप्लिकेट्स को अनुमति दें",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "चुपचाप डुप्लिकेट्स को अस्वीकार करें",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "अगर OneTab में पहले से एक टैब का URL है, वह दोबारा जोड़ा नहीं जाएगा। यह तभी लागू होता है जब आप OneTab आइकन को क्लिक करते हैं या कई टैब्स को OneTab पर भेजने के लिए के लिए राइट क्लिक मेन्यू का उपयोग करते हैं। अगर आप एक विशेष टैब को OneTab पर भेजने के लिए राइट क्लिक मेन्यू का उपयोग करते\nहैं, तब उस विशेष टैब के लिए डुप्लिकेट की अनुमति दी जाएगी।",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "नाम वाले टैब समूह",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "DOMAIN.COM को OneTab से बाहर करें",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "इस वेब साइट को OneTab से बाहर करें",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "सभी टैब्स को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "इस वेब लिंक को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "केवल इस टैब को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "इस टैब को छोड़कर सभी टैब्स को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "बाएं मौजूद सभी टैब्स को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "दाएं मौजूद सभी टैब्स को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "सभी विंडो से सभी टैब्स को OneTab पर भेजें",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "सभी टैब्स को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "इस वेब लिंक को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "केवल इस टैब को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "इस टैब को छोड़कर सभी टैब्स को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "बाएं मौजूद सभी टैब्स को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "दाएं मौजूद सभी टैब्स को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "सभी विंडो से सभी टैब्स को PLACEHOLDER पर भेजें",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "95% तक मेमोरी बचाएं और गूगल क्रोम में टैब की भीड़ को कम करें",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "पहलेः 1981 MB उपयोग की गई",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "बाद मेः केवल 99 MB उपयोग की गई",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95% मेमोरी में कमी",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "अभी OneTab को जोड़ें",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "किसी साइनअप या रजिस्ट्रेशन की आवश्यकता नहीं",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab फायरफॉक्स के लिए भी उपलब्ध है",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "टैब्स को एक लिस्ट में परिवर्तित करें",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "मेमोरी का उपयोग 95% तक घटाएं",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab अब हिंदी में उपलब्ध है!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "नया!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "बहुत अधिक टैब्स? अपने टैब्स को एक लिस्ट में परिवर्तित करें और फायरफॉक्स की स्पीड बढ़ाएं",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "पहलेः टैब्स की भीड़ में गुम, ब्राउजर धीमा",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "बाद मेः तुरंत राहत, बाद में तेजी से टैब्स बहाल करें",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "हिंदी",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "भाषाः",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

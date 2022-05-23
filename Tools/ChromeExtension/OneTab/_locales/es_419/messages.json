@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Mostrar OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "pestaña",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Ahorre hasta el 95% de la memoria y reduzca el desorden de pestañas",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Enviar la pestaña actual a OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Restaurar todas",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Eliminar todas",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Creada en",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "¿Está seguro que desea eliminar esta pestaña?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "¿Está seguro que desea eliminar estas pestañas?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Para eliminar este grupo de pestañas, debe desbloquearlo primero (usando el botón 'Más...')",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Compartir como página web",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Compartir todas como página web",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Por favor espere...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Más...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Nombrar este grupo de pestañas",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Desbloquear este grupo de pestañas",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Bloquear este grupo de pestañas",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Borrar la estrella de este grupo de pestañas",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Marcar con estrella este grupo de pestañas",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Ayuda",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Llevar todas las pestañas a OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Aún no tiene pestañas en OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportar/importar los URL",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importar los URL",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Pegue una lista de URL y luego haga clic en Importar abajo",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exportar los URL",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importar",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportar",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Opciones",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Características",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Acerca de",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Comentarios",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Cuando tenga varias pestañas abiertas, haga clic en el icono OneTab en la barra de herramientas de su navegador y todas las pestañas abiertas aparecerán aquí.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Total: 0 pestañas",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Total: 1 pestaña",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Total: 2 pestañas",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 pestaña",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 pestañas",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "La siguiente lista de URL también puede importarse de nuevo a OneTab en este o en otro computador",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Al restaurar el grupo de pestañas, enviarlas a:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Una nueva ventana, a menos que OneTab sea la única pestaña de la ventana actual",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Siempre a una nueva ventana",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Siempre a la ventana actual",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Pestañas fijadas:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "No enviar pestañas fijadas a OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Todavía puede enviar manualmente una pestaña fijada a OneTab haciendo clic derecho dentro de la página web para tener acceso al menú de OneTab, luego haciendo clic en 'Enviar únicamente esta pestaña a OneTab'",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Permitir enviar las pestañas fijadas a OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Nota: Las pestañas se 'fijan' haciendo clic derecho en la pestaña y haciendo clic en 'Fijar pestaña'. A algunas personas les gusta fijar sitios tales como Facebook o Gmail para poder encontrarlos fácilmente. OneTab recordará si la pestaña estaba fijada cuando la restaure.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Al iniciar:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Mostrar OneTab cuando inicie su navegador web la primera vez",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "No abrir OneTab automáticamente",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Para abrir OneTab manualmente, use el menú contextual y seleccione 'Mostrar OneTab'",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Al hacer clic en 'Restaurar todas' o al restaurar una sola pestaña:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Abrir las pestañas y quitarlas de la lista de OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "También puede presionar Control, Cmd o Mayús para restaurar las pestañas sin quitarlas de OneTab. Si define como 'bloqueado' alguno de los grupos de pestañas, entonces no será eliminado de OneTab a menos que primero lo desbloquee.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Conservarlas en la lista de OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Puede eliminar los registros manualmente pasando sobre ellos y haciendo clic en el icono X o haciendo clic en el botón 'Eliminar todo'",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplicados:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Permitir duplicados",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Omitir silenciosamente los duplicados",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Si OneTab ya contiene el URL de una pestaña, esta no será añadida de nuevo. Esto solo aplica cuando hace clic en el icono OneTab o cuando usa el menú contextual para enviar varias pestañas a OneTab. Si hace clic derecho en OneTab para enviar únicamente una pestaña a OneTab, entonces se permitirá el duplicado para esa pestaña específica.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Grupos de pestañas con nombre",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Excluir DOMAIN.COM de OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Excluir este sitio web de OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Enviar todas las pestañas a OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Enviar este enlace web a OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Enviar únicamente esta pestaña a OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Enviar todas las pestaña, excepto esta, a OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Enviar todas las pestañas a la izquierda a OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Enviar todas las pestañas a la derecha a OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Enviar todas las pestañas, de todas las ventanas, a OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Enviar todas las pestañas a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Enviar este enlace web a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Enviar únicamente esta pestaña a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Enviar todas las pestaña, excepto esta, a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Enviar todas las pestañas a la izquierda a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Enviar todas las pestañas a la derecha a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Enviar todas las pestañas, de todas las ventanas, a PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Ahorre hasta el 95% de la memoria y reduzca el desorden de pestañas en Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Antes: 1981 MB usados",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Después: solo 99 MB usados",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "Reducción de 95% en el uso de memoria",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Añadir OneTab ahora",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "No es necesario registrarse o inscribirse",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab también está disponible para Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Convierta las pestañas en una lista",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Reduzca el uso de memoria en 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "¡OneTab ahora está disponible en español!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "¡Nuevo!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "¿Demasiadas pestañas? Convierta todas sus pestañas en una lista y acelere Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Antes: Perdido en un desorden de pestañas. Navegador lento",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Después: Alivio inmediato, restaure rápidamente las pestañas después",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Español",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Idioma:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

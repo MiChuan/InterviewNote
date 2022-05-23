@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Näytä OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "välilehti",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Säästä jopa 95 % muistia ja vähennä välilehtisotkua",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Lähetä nykyinen välilehti OneTabiin",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Palauta kaikki",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Poista kaikki",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Luotu",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Oletko varma, että haluat poistaa tämän välilehden?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Oletko varma, että haluat poistaa nämä välilehdet?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Poistaaksesi tämän välilehtiryhmän sinun täytyy avata se ensin (käyttämällä \"Lisää...\" -painiketta)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Jaa verkkosivuna",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Jaa kaikki verkkosivuna",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Odota...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Lisää...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Nimeä tämä välilehtiryhmä",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Avaa tämän välilehtiryhmän lukitus",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Lukitse tämä välilehtiryhmä",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Poista tämän välilehtiryhmän tähtimerkintä",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Merkitse tämä välilehtiryhmä tähdellä",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Ohjeita",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Tuo kaikki välilehdet OneTab-sovellukseen",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Sinulla ei vielä ole välilehtiä OneTab-sovelluksessa",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Vie/tuo URL-osoitteita",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Tuo URL-osoitteita",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Liitä URL-osoiteluetteloon ja valitse sitten alta Tuo",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Vie URL-osoitteita",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Tuo",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Vie",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Vaihtoehdot",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Ominaisuudet",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Tietoa",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Palaute",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Kun sinulla on useita välilehtiä auki, napsauta OneTab-kuvaketta selaimen työkalurivillä, ja avoimet välilehdet näkyvät tässä.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Yhteensä: 0 välilehteä",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Yhteensä: 1 välilehti",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Yhteensä: 2 välilehteä",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 välilehti",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 välilehteä",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Seuraava URL-luettelo voidaan tuoda myös takaisin OneTabiin tällä tai eri tietokoneella",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Valitse, mihin välilehtiryhmä lähetetään palauttamisen jälkeen:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Uusi ikkuna, ellei OneTab ole ainoa välilehti nykyisessä ikkunassa",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Aina uusi ikkuna",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Aina nykyinen ikkuna",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Kiinnitetyt välilehdet:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Älä lähetä kiinnitettyjä välilehtiä OneTabiin",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Voit silti lähettää manuaalisesti kiinnitetyn välilehden OneTabiin napsauttamalla verkkosivulla hiiren oikenpuoleisella painikkeella päästäksesi OneTab-valikkooon ja valitsemalla \"Lähetä vain tämä välilehti OneTabiin\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Salli kiinnitettyjen välilehtien lähettäminen OneTabiin",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Huomautus: Välilehdestä tulee \"kiinnitetty\", kun napsautat välilehteä hiiren oikeanpuoleisella painikkeella ja valitset \"Kiinnitä välilehti\". Jotkut haluavat kiinnittää Facebookin tai Gmailin kaltaisia sivustoja voidakseen löytää ne helposti. OneTab muistaa onko välilehti kiinnitetty, kun palautat sen.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Käynnistys:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Näytä OneTab, kun käynnistät selaimen ensimmäistä kertaa",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Älä avaa OneTabia automaattisesti",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Voit avata OneTabin manuaalisesti käyttämällä oikeanpuoleisen painikkeen valikkoa ja valitsemalla \"Näytä OneTab\"",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "\"Palauta kaikki\" tai palauta yksi välilehti:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Avaa välilehti (välilehdet) ja poista ne OneTab-luettelosta",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Lisäksi voit painaa ctrl, cmd tai shift palauttaaksesi välilehtiä poistamatta niitä OneTabista. Jos merkitset jonkun välilehtiryhmän \"lukituksi\", ei välilehtiä poisteta OneTabista, ellet ensin poista kyseisen välilehtiryhmän lukitusta.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Pidä ne OneTab-luettelossasi",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Voit poistaa merkinnät manuaalisesti siirtämällä kursorin niiden päälle ja napsauttamalla X-kuvaketta tai napsauttamalla \"poista kaikki\" -painiketta",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Kaksoiskappaleet:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Salli kaksoiskappaleet",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Hylkää kaksoiskappaleet äänettömästi",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Jos OneTab sisältää jo välilehden URL:n, sitä ei lisätä uudelleen. Tämä koskee vain tilannetta, jolloin napsautat OneTab-kuvaketta tai käytät oikeanpuoleista valikkoa lähettääksesi useita välilehtiä OneTabiin. Jos käytät oikeanpuoleista OneTab-valikkoa vain tietyn välilehden lähettämiseksi OneTabiin, kaksoiskappaleet sallitaan tämän nimenomaisen välilehden osalta.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Nimetyt välilehtiryhmät",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Jätä DOMAIN.COM pois OneTabista",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Jätä tämä verkkosivusto pois OneTabista",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Lähetä kaikki välilehdet OneTabiin",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Lähetä tämä Internet-linkki OneTabiin",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Lähetä vain tämä välilehti OneTabiin",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Lähetä kaikki muut välilehdet paitsi tämä OneTabiin",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Lähetä vasemmalla olevat välilehdet OneTabiin",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Lähetä oikealla olevat välilehdet OneTabiin",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Lähetä kaikki välilehdet kaikista ikkunoista OneTabiin",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Lähetä kaikki välilehdet kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Lähetä tämä Internet-linkki kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Lähetä vain tämä välilehti kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Lähetä kaikki muut välilehdet paitsi tämä kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Lähetä vasemmalla olevat välilehdet kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Lähetä oikealla olevat välilehdet kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Lähetä kaikki välilehdet kaikista ikkunoista kansioon PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Säästä jopa 95 % muistia ja vähennä välilehtisotkua Google Chromessa",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Ennen: 1981 MB käytetty",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Jälkeen: vain 99 MB käytetty",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95 % muistia vähemmän",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Lisää OneTab nyt",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Ei kirjautumista eikä rekisteröitymistä",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab on saatavilla myös Firefoxille",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Muunna välilehdet luetteloksi",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Vähennä muistin käyttöä 95 %",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab on nyt saatavilla suomeksi!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Uutta!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Liian monta välilehteä? Muunna välilehdet luetteloksi ja nopeuta Firefoxia",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Ennen: liikaa välilehtisotkua, selaaminen on hidasta",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Jälkeen: välitön helpotus, palauta välilehdet nopeasti myöhemmin",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Suomi",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Kieli:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

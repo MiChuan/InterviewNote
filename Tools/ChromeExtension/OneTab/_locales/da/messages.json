@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Vis OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "fane",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Spar op til 95 % hukommelse og reducér fane-rod",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Send den aktuelle fane til OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Gendan alle",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Slet alle",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Oprettet",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Er du sikker på, at du vil slette denne fane?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Er du sikker på, at du vil slette disse faner?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Du skal låse fanegruppen op først, før du kan slette den (via knappen \"Mere...\")",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Del som hjemmeside",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Del alle som hjemmeside",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Vent venligst...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Mere...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Navngiv denne fanegruppe",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Lås denne fanegruppe op",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Lås denne fanegruppe",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Fjern stjernemarkering fra denne fanegruppe",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Markér denne fanegruppe med en stjerne",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Hjælp",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Flyt alle faner til OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Du har endnu ikke nogen faner i OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportér/importér URL'er",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importér URL'er",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Indsæt en liste med URL-adresser, og klik derefter på Importér nedenfor",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Eksportér URL'er",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importér",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Eksportér",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Muligheder",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Funktioner",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Omkring",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Når du har flere faner åbne, skal du klikke på OneTab-ikonet på værktøjslinjen i din browser, og dine åbne faner vil vises her.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "I alt: 0 faner",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "I alt: 1 fane",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "I alt: 2 faner",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 fane",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 faner",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "Den følgende liste med URL-adresser kan også importeres tilbage til OneTab på denne eller en anden computer",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Når en fane gruppe genoprettes, skal du sende fanerne til:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Et nyt vindue, medmindre OneTab er den eneste fane i det aktuelle vindue",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Altid et nyt vindue",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Altid det aktuelle vindue",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Fastgjorte faner:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Send ikke fastgjorte faner til OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Du kan stadig manuelt sende en fane, der er fastgjort til OneTab ved at højreklikke på hjemmesiden for at få adgang til OneTab-menuen og derefter klikke på \"Send kun denne fane til OneTab\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Tillad at fastgjorte faner sendes til OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Bemærk: En fane bliver \"fastgjort\", når du højreklikker på fanen, og klikker på \"Fastgør fane\". Nogle mennesker kan lide at fastgøre Facebook eller Gmail, så de nemt kan findes. OneTab vil huske, om en fane blev fastgjort, når du gendanner den.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Opstart:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Vis OneTab når du starter din browser for første gang",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Åbn ikke OneTab automatisk",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Hvis du vil åbne OneTab manuelt, skal du bruge højrekliksmenuen og vælge \"Vis OneTab\"",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Når man klikker på \"gendan alle\" eller gendanner en enkelt fane:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Åbn fane(r), og fjern dem fra din OneTab-liste",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Du kan stadig trykke ctrl, cmd eller shift for at gendanne fanen(rne) uden, at de(n) fjernes fra OneTab. Hvis du indstiller nogen af ​​dine fanegrupper som \"låst\", fjernes fanerne ikke fra OneTab, medmindre du låser pågældende fanegruppe op først.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Opbevar dem i din OneTab-liste",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Du kan manuelt slette poster ved at holde markøren over dem og klikke på ikonet X, eller ved at klikke på knappen \"slet alle\"",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Kopier:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Tillad kopier",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Afvis kopier lydløst",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Hvis OneTab allerede indeholder URL-adressen på en fane, vil den ikke blive tilføjet igen. Dette gælder kun, når du klikker på OneTab-ikonet eller bruger højrekliksmenuen til at sende flere faner til OneTab. Hvis du bruger OneTabs højrekliksmenu til kun at sende en bestemt fane til OneTab, vil kopien være tilladt for den specifikke fane.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Navngivne fanegrupper",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Udeluk DOMAIN.COM fra OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Udeluk denne hjemmeside fra OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Send alle faner til OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Send dette link til OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Send kun denne fane til OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Send alle faner undtagen denne fane til OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Send fanerne i venstre side til OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Send fanerne i højre side til OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Send alle faner fra alle vinduer til OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Send alle faner til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Send dette link til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Send kun denne fane til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Send alle faner undtagen denne fane til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Send fanerne i venstre side til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Send fanerne i højre side til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Send alle faner fra alle vinduer til PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Spar op til 95 % hukommelse og reducér fanerod i Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Før: 1981 MB, der bruges",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Efter: kun 99 MB, der bruges",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95% reducering i hukommelse",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Tilføj OneTab nu",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Det er ikke nødvendigt med tilmelding eller registrering",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab er også tilgængelig for Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Konvertér faner til en liste",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Reducér hukommelsesforbrug med 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab er nu tilgængelig på dansk!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Ny!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Alt for mange faner? Konvertér dine faner til en liste og gør Firefox hurtigere",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Før: Fortabt i et rod af faner, browser er langsom",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Efter: Øjeblikkelig lettelse, hurtigt gendannelse af faner senere",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Dansk",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Sprog:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

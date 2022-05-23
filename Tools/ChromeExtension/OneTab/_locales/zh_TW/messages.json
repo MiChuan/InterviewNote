@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "顯示OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "分頁",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "節省高達95％的記憶體，並減輕分頁混亂現象",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "傳送當前分頁至OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "還原全部",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "刪除全部",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "創建於",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "您確定要刪除這個分頁嗎？",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "您確定要刪除這些分頁嗎？",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "要刪除此分頁組，必須先解鎖（透過「更多...」按鈕解鎖）",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "分享為網頁",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "全部分享為網頁",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "請稍候...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "更多...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "命名此分頁組",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "取消鎖定此分頁組",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "鎖定此分頁組",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "取消此分頁組星形標記",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "星形標記此分頁組",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "說明",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "傳送全部分頁至OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "您的OneTab中還沒有任何分頁",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "匯出/匯入網址",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "匯入網址",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "粘貼到網址清單，然後點擊下面的匯入",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "匯出網址",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "匯入",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "匯出",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "選項",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "特色",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "關於",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "意見反應",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "當您有多個分頁打開時，點擊瀏覽器工具列上的OneTab圖示，您打開的分頁會出現在這裡。",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "總計：0個分頁",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "總計：1個分頁",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "總計：2個分頁",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1個分頁",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2個分頁",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "下面的網址清單也可以導回這台電腦或其他電腦的OneTab",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "分頁組還原後，傳送分頁至：",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "新視窗，除非OneTab是當前窗口的唯一分頁",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "始終新視窗",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "始終當前視窗",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "固定分頁：",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "不要傳送固定分頁至OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "您仍然可以手動傳送固定分頁至OneTab。方法：在網頁內點擊右鍵可瀏覽OneTab功能表，然後點擊「僅傳送此分頁至OneTab」",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "允許將固定分頁傳送至OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "注意：當您在分頁上點擊右鍵並點擊「固定分頁」，分頁變為「固定」。有些人喜歡固定Facebook或Gmail等網站，以便可以輕鬆找到它們。在還原時，OneTab會記得分頁是否固定。",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "啟動：",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "每次啟動Web瀏覽器時顯示OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "不要自動打開OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "要手動打開OneTab，使用右鍵功能表並選擇「顯示OneTab」",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "點擊「還原全部」或還原單個分頁：",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "打開分頁並將其從OneTab清單中刪除",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "您仍然可以按ctrl、cmd或shift來還原分頁，而且不會將其從OneTab中刪除。如果您將任何分頁組設置為「鎖定」，那麼這些分頁將不會從OneTab中刪除，除非您先解鎖此分頁組。",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "將它們保留在您的OneTab清單",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "您可以將滑鼠懸停在條目上並點擊X圖示，或點擊「刪除全部」按鈕，從而手動刪除條目",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "重複：",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "允許重複",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "默默拒絕重複",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "如果OneTab已經包含分頁的網址，它不會再次添加。這種情況只適用於您點擊OneTab圖示或使用右鍵功能表傳送多個分頁至OneTab。如果使用右鍵OneTab功能表來傳送一個特定的分頁至OneTab，則這個特定分頁允許重複。",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "已命名分頁組",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "在OneTab中排除DOMAIN.COM",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "在OneTab排除這個網站",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "傳送全部分頁至OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "傳送此網頁連結致OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "僅傳送此分頁至OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "傳送除此分頁以外的全部分頁至OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "傳送左側分頁至OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "傳送右側分頁至OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "傳送全部視窗的全部分頁至OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "傳送全部分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "傳送此網站連結至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "僅傳送此分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "傳送除此分頁以外的全部分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "傳送左側分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "傳送右側分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "傳送全部視窗的全部分頁至PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "節省高達95％的記憶體，減輕Google Chrome瀏覽器的分頁混亂現象",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "之前：使用1981MB",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "之後：僅使用99MB",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "節省95％的記憶體",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "現在添加OneTab",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "無需註冊或登記",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab也可用於Firefox瀏覽器",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "將分頁轉換成一個清單",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "記憶體使用減少95％",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab現在提供繁體中文版！",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "新！",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "分頁太多了？將您的分頁轉換成一個清單，加快Firefox瀏覽器執行速度",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "之前：迷失在淩亂的分頁中，瀏覽器執行緩慢",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "之後：即可解脫，稍後迅速還原分頁",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "繁體中文",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "語言：",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

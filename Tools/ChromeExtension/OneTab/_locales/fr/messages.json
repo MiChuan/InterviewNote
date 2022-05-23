@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Afficher OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "onglet",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Economisez jusqu'à 95% de mémoire et réduisez l'encombrement des onglets",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Envoyez l'onglet actuel sur OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Tout restaurer",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Tout supprimer",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Créé",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Êtes-vous certain de vouloir supprimer cet onglet ?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Êtes-vous certain de vouloir supprimer ces onglets ?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Pour supprimer ce groupe d'onglets, vous devez d'abord le déverrouiller (via le bouton «Plus ...»)",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Partager en tant que page Web",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Partager tout en tant que page Web",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Veuillez patienter...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Plus...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Nommer ce groupe d'onglets",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Déverrouiller ce groupe d'onglets",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Verrouiller ce groupe d'onglets",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Retirer l'étoile de ce groupe d'onglets",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Noter d'une étoile ce groupe d'onglets",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Aide",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Apporter tous les onglets dans OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Vous ne possédez encore aucun onglet dans OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exporter / Importer des URLs",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importer des URLs",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Coller dans une liste d'URLs, puis cliquer ci-dessous sur Importer",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exporter des URLs",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importer",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exporter",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Options",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Fonctions",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "A propos",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Réaction",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Lorsque vous avez plusieurs onglets ouverts, cliquez l'icône OneTab sur la barre d'outils de votre navigateur et tous vos onglets ouverts apparaîtront ici.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Total : 0 onglet",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Total : 1 onglet",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Total : 2 onglets",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 onglet",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 onglets",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "La liste suivante des URLs peut également être réimportée dans OneTab sur cet ordinateur ou un autre",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Lorsqu'un groupe d'onglets est rétabli, envoyez les onglets pour :",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Une nouvelle fenêtre, à moins que OneTab soit le seul onglet dans la fenêtre actuelle",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Toujours  une nouvelle fenêtre",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Toujours la fenêtre actuelle",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Onglets épinglés :",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Ne pas envoyer des onglets épinglés sur OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Vous pouvez toujours envoyer manuellement un onglet épinglé sur OneTab par un clic de droite dans la page web pour accéder au menu OneTab, puis en cliquant sur 'Envoyer uniquement cet onglet sur OneTab'",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Autoriser les onglets épinglés à envoyer sur OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Remarque : Un onglet devient «épinglé» lorsque vous cliquez le bouton de droite sur l'onglet et cliquez sur \"Épingler l'onglet\". Certaines personnes aiment faire en sorte que des sites tels que Facebook ou Gmail soient épinglés afin qu'ils puissent facilement les localiser. OneTab se souviendra si un onglet a été épinglé lorsque vous le restaurez.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Démarrez :",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Afficher OneTab chaque fois que vous démarrez votre navigateur Web pour la première fois",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Ne pas ouvrir automatiquement OneTab",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Pour ouvrir OneTab manuellement, utilisez le menu avec le clic de droite et choisissez 'Afficher OneTab'",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "En cliquant sur 'Tout restaurer' ou en restaurant un seul onglet :",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Ouvrir l(es) onglet(s) et le(s) supprimer de votre liste de OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Vous pouvez toujours appuyer sur ctrl, cmd ou shift pour restaurer l(es) onglet(s) sans le(s) retirer de OneTab. Si vous définissez un de vos groupes d'onglets comme \"verrouillé\", alors les onglets ne seront pas retirés de OneTab sauf si vous déverrouillez d'abord ce groupe d'onglets.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Gardez-les dans votre liste OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Vous pouvez supprimer manuellement les entrées en passant dessus et en cliquant sur l'icône X, ou en cliquant sur le bouton 'Tout supprimer'",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Doublons :",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Autoriser les doublons",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Rejeter silencieusement les doublons",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Si OneTab contient déjà l'URL d'un onglet, il ne sera pas ajouté à nouveau. Cela ne s'applique que lorsque vous cliquez sur l'icône OneTab ou utilisez le menu du clic de droite pour envoyer plusieurs onglets sur OneTab. Si vous utilisez le menu OneTab avec le clic de droite pour envoyer seulement un onglet spécifique sur OneTab, alors le doublon sera autorisé pour cet onglet spécifique.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Groupes d'onglets nommés",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Exclure DOMAIN.COM de OneTab",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Exclure ce site web de OneTab",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Envoyer tous les onglets sur OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Envoyer ce lien Web sur OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Envoyer uniquement cet onglet sur OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Envoyer tous les onglets sauf cet onglet sur OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Envoyer les onglets de gauche sur OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Envoyer les onglets de droite sur OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Envoyer tous les onglets de toutes les fenêtres sur OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Envoyer tous les onglets sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Envoyer ce lien Web sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Envoyer uniquement cet onglet sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Envoyer tous les onglets sauf cet onglet sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Envoyer les onglets de gauche sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Envoyer les onglets de droite sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Envoyer tous les onglets de toutes les fenêtres sur PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Economiser jusqu'à 95% de mémoire et réduire l'encombrement des onglets dans Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Avant : 1981 Mo utilisés",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Après : seulement 99 Mo utilisés",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "Réduction de 95% de la mémoire",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Ajouter OneTab maintenant",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Aucune inscription ou enregistrement requis",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab est également disponible sur Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Convertir les onglets en une liste",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Réduire l'utilisation de la mémoire de 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "OneTab est maintenant disponible en français !",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Nouveau !",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Trop d'onglets ? Convertissez vos onglets en une liste et accélérez Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Avant : Perdu dans un désordre d'onglets, navigateur lent",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Après : Le soulagement instantané, restauration rapide des onglets par la suite",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Français",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Langue :",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}

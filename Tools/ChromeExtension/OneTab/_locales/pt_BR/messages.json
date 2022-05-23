@@ -1,0 +1,378 @@
+{
+  "displayOneTab": {
+    "message": "Exibir o OneTab",
+    "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated."
+  },
+  "tab": {
+    "message": "guia",
+    "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'"
+  },
+  "manifestDescription": {
+    "message": "Poupe até 95% de memória e reduza sua ocupação com guias",
+    "description": "The description of the software. Note that 'tab' refers to web browser tabs."
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Enviar guia atual para o OneTab",
+    "description": ""
+  },
+  "restoreAll": {
+    "message": "Restaurar todas as guias",
+    "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser."
+  },
+  "deleteAll": {
+    "message": "Excluir todas as guias",
+    "description": ""
+  },
+  "createdPreceedingDate": {
+    "message": "Criada",
+    "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'"
+  },
+  "areYouSureYouWantToDeleteThisTab": {
+    "message": "Tem certeza de que deseja excluir esta guia?",
+    "description": ""
+  },
+  "areYouSureYouWantToDeleteTheseTabs": {
+    "message": "Tem certeza de que deseja excluir estas guias?",
+    "description": ""
+  },
+  "unlockBeforeDeleting": {
+    "message": "Para excluir este grupo de guias, você precisa desbloqueá-lo antes (clicando no botão \"Mais...\")",
+    "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation"
+  },
+  "shareAsWebPage": {
+    "message": "Compartilhar como página da web",
+    "description": "The selected tabs will be shared as a web page for other users to see"
+  },
+  "shareAllAsWebPage": {
+    "message": "Compartilhar como página da web",
+    "description": "All tabs will be shared as a web page for other users to see"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Aguarde...",
+    "description": "Asks the user to wait briefly"
+  },
+  "moreTripleDot": {
+    "message": "Mais...",
+    "description": "Clicking this will reveal more options"
+  },
+  "nameThisTabGroup": {
+    "message": "Nomear este grupo de guias",
+    "description": "Allows the user to type a label to describe a group of browser tabs"
+  },
+  "unlockTabGroup": {
+    "message": "Desbloquear este grupo de guias",
+    "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)"
+  },
+  "lockTabGroup": {
+    "message": "Bloquear este grupo de guias",
+    "description": "Locked means changes cannot be made"
+  },
+  "unstarTabGroup": {
+    "message": "Desmarcar este grupo de guias",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "starTabGroup": {
+    "message": "Marcar este grupo de guias",
+    "description": "a starred group means it has been highlighted with a star"
+  },
+  "help": {
+    "message": "Ajuda",
+    "description": "gives the user help information"
+  },
+  "bringAllTabsIntoOneTab": {
+    "message": "Reunir todas as guias no OneTab",
+    "description": "Takes all of the user's web browser tabs and stores them into the OneTab software"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Você ainda não tem guias no OneTab",
+    "description": ""
+  },
+  "exportImportUrls": {
+    "message": "Exportar/Importar URLs",
+    "description": "Referrs to the importing or exporting of URLs into and out of the software"
+  },
+  "importUrls": {
+    "message": "Importar URLs",
+    "description": "Referrs to the importing of URLs into and out of the software"
+  },
+  "pasteInUrlsInstructions": {
+    "message": "Cole uma lista de URLs e clique em \"Importar\" abaixo",
+    "description": "Note: ensure the word Import is consistent in the translation"
+  },
+  "exportUrls": {
+    "message": "Exportar URLs",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "import": {
+    "message": "Importar",
+    "description": "Referrs to the importing of URLs into the software"
+  },
+  "export": {
+    "message": "Exportar",
+    "description": "Referrs to the exporting of URLs out of the software"
+  },
+  "options": {
+    "message": "Opções",
+    "description": "Display options, which are settings that can be changed for the software"
+  },
+  "features": {
+    "message": "Recursos",
+    "description": "Display a page with information about features of the software"
+  },
+  "about": {
+    "message": "Sobre",
+    "description": "Information about the software"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description": "Displays a page where feedback can be given about the software"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Quando você tiver diversas guias abertas, clique no ícone do OneTab na barra de ferramentas de seu navegador e suas guias abertas aparecerão aqui.",
+    "description": ""
+  },
+  "total0Tabs": {
+    "message": "Total: 0 guia(s)",
+    "description": "Indicating a total count of 0 tabs stored"
+  },
+  "total1Tab": {
+    "message": "Total: 1 guia",
+    "description": "Indicating a total count of 1 tab stored"
+  },
+  "total2Tabs": {
+    "message": "Total: 2 guias",
+    "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "1tab": {
+    "message": "1 guia",
+    "description": "Indicating a tab count of 1"
+  },
+  "2tabs": {
+    "message": "2 guias",
+    "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2."
+  },
+  "exportThenImportNote": {
+    "message": "A lista de URLs a seguir também pode ser importada de volta para o OneTab neste computador ou em outro",
+    "description": ""
+  },
+  "optionTabGroupRestoreTitle": {
+    "message": "Quando um grupo de guias for restaurado, enviar guias para:",
+    "description": "This is a heading that will be followed by text options like: 'Always a new window'"
+  },
+  "optionTabGroupRestoreNewWindow": {
+    "message": "Uma nova janela, a menos que o OneTab seja a única guia aberta na janela atual",
+    "description": ""
+  },
+  "optionTabGroupRestoreNewWindowAlways": {
+    "message": "Sempre em uma nova janela",
+    "description": ""
+  },
+  "optionTabGroupRestoreCurrentWindowAlways": {
+    "message": "Sempre na janela atual",
+    "description": ""
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Guias fixas:",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Não enviar guias fixas para o OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Você ainda pode enviar manualmente uma guia fixa para o OneTab clicando com o botão direito na página da web para acessar o menu OneTab, e clicando em \"Enviar apenas esta guia para o OneTab\"",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Permitir que guias fixas sejam enviadas para o OneTab",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Observação: uma guia se torna \"fixa\" quando você clica com o botão direito na guia, e clica em \"Fixar guia\". Algumas pessoas gostam de fixar sites como o Facebbok ou Gmail para que possam localizá-los com facilidade. O OneTab se lembrará se uma guia estava fixa quando você restaurá-la.",
+    "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Início:",
+    "description": "'Startup' refers to when the user's web browser is started for the first time"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Exibir o OneTab sempre que abrir seu navegador da web pela primeira vez",
+    "description": ""
+  },
+  "optionStartupLaunchNone": {
+    "message": "Não abrir o OneTab automaticamente",
+    "description": ""
+  },
+  "optionStartupLaunchNoneDesc": {
+    "message": "Para abrir o OneTab manualmente, clique com o botão direito do mouse e selecione a opção \"Exibir OneTab\".",
+    "description": ""
+  },
+  "optionRestoreRemovalTitle": {
+    "message": "Ao clicar em \"restaurar todas\" ou ao restaurar uma única guia:",
+    "description": ""
+  },
+  "optionRestoreRemovalDefault": {
+    "message": "Abra a(s) guia(s) e remova-as da sua lista OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalDefaultDesc": {
+    "message": "Você ainda poderá pressionar ctrl, cmd ou shift para restaurar a(s) guia(s) sem removê-las do OneTab. Se você definir algum grupo de guias como \"bloqueado\", as guias não serão removidas do OneTab a menos que você desbloqueie esse grupo de guias antes.",
+    "description": ""
+  },
+  "optionRestoreRemovalKeep": {
+    "message": "Mantê-las em sua lista OneTab",
+    "description": ""
+  },
+  "optionRestoreRemovalKeepDesc": {
+    "message": "Você pode excluir lançamentos manualmente passando o mouse sobre eles e clicando no ícone \"X\", ou clicando no botão \"excluir tudo\".",
+    "description": ""
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplicatas:",
+    "description": ""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Permitir duplicatas",
+    "description": ""
+  },
+  "optionDuplicatesReject": {
+    "message": "Recusar duplicatas sem alertar",
+    "description": ""
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Se o OneTab já tiver a URL de uma guia, ela não será adicionada novamente. Isto se aplica somente quando você clicar no ícone do OneTab ou clicar com o botão direito do mouse para enviar diversas guias para o OneTab. Se você usar o menu suspenso do OneTab para enviar apenas uma guia específica para o OneTab, a duplicata será permitida somente para essa guia específica.",
+    "description": ""
+  },
+  "namedTabGroups": {
+    "message": "Grupos de guias com nome",
+    "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Excluir \"DOMAIN.COM\" do OneTab.",
+    "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder."
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Excluir este website do OneTab.",
+    "description": ""
+  },
+  "sendAllTabsToOneTab": {
+    "message": "Enviar todas as guias para o OneTab",
+    "description": ""
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Enviar este link da web para o OneTab",
+    "description": ""
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Enviar apenas esta guia para o OneTab",
+    "description": ""
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Enviar todas as guias menos esta para o OneTab",
+    "description": ""
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Enviar as guias à esquerda para o OneTab",
+    "description": ""
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Enviar as guias à direita para o OneTab",
+    "description": ""
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Enviar todas as guias de todas as janelas para o OneTab",
+    "description": ""
+  },
+  "sendAllTabsToPlaceholder": {
+    "message": "Enviar todas para o PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendThisWebLinkToPlaceholder": {
+    "message": "Enviar este link da web para PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendOnlyThisTabToPlaceholder": {
+    "message": "Enviar apenas esta guia para o PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsExceptThisTabToPlaceholder": {
+    "message": "Enviar todas as guias menos esta para PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendLeftTabsToPlaceholder": {
+    "message": "Enviar as guias à esquerda para PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendRightTabsToPlaceholder": {
+    "message": "Enviar as guias à direita para PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "sendAllTabsAllWindowsToPlaceholder": {
+    "message": "Enviar todas as guias de todas as janelas para PLACEHOLDER",
+    "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Poupe até 95% de memória e reduza o acúmulo de guias no Google Chrome",
+    "description": ""
+  },
+  "memoryBefore1981": {
+    "message": "Antes: 1981 MB utilizados",
+    "description": ""
+  },
+  "memoryAfter99": {
+    "message": "Depois: apenas 99 MB utilizados",
+    "description": ""
+  },
+  "95PctMemoryReduction": {
+    "message": "95% de redução no uso de memória",
+    "description": ""
+  },
+  "addOneTabNow": {
+    "message": "Instale o OneTab agora",
+    "description": "This means the user can add (install) the OneTab software to their web browser"
+  },
+  "noSignupRegistrationRequired": {
+    "message": "Não é preciso registro ou cadastro",
+    "description": ""
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "O OneTab também está disponível para o Firefox",
+    "description": ""
+  },
+  "convertTabsIntoAList": {
+    "message": "Converter guias em uma lista",
+    "description": ""
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Reduz o uso de memória em até 95%",
+    "description": ""
+  },
+  "nowAvailableInLanguage": {
+    "message": "O OneTab agora está disponível em Português!",
+    "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into."
+  },
+  "newExclamation": {
+    "message": "Novo!",
+    "description": ""
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Muitas guias? Converta suas guias em uma lista e acelere o Firefox",
+    "description": ""
+  },
+  "beforeLostInMessBrowserSlow": {
+    "message": "Antes: Perdido em uma bagunça de guias, navegador lento",
+    "description": ""
+  },
+  "afterInstantReliefRestoreLater": {
+    "message": "Depois: Alívio instantâneo, restaure guias rapidamente mais tarde",
+    "description": ""
+  },
+  "userLanguage": {
+    "message": "Português",
+    "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into."
+  },
+  "languageTitle": {
+    "message": "Idioma:",
+    "description": "Title shown above the list of languages the user can choose from"
+  }
+}
