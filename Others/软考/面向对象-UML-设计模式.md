@@ -1366,25 +1366,1404 @@ int main() {
 
 #### 13 责任链
 
+责任链模式是一种行为设计模式，它允许多个对象依次处理请求，直到其中一个对象处理该请求为止。这种模式可以减少请求发送者和接收者之间的耦合。
+
+##### Mermaid 表示责任链模式的类图
+
+Mermaid 是一种基于文本的图表工具，可以用来表示责任链模式的类图。以下是一个简单的 Mermaid 类图示例：
+
+```mermaid
+classDiagram
+    class Handler {
+      +setNextHandler(Handler next):void
+      +handleRequest(Request request):void
+    }
+    class ConcreteHandlerA {
+      +handleRequest(Request request):void
+    }
+    class ConcreteHandlerB {
+      +handleRequest(Request request):void
+    }
+    class ConcreteHandlerC {
+      +handleRequest(Request request):void
+    }
+    Handler <|-- ConcreteHandlerA
+    Handler <|-- ConcreteHandlerB
+    Handler <|-- ConcreteHandlerC
+    ConcreteHandlerA "1" o-- "1" ConcreteHandlerB : handles
+    ConcreteHandlerB "1" o-- "1" ConcreteHandlerC : handles
+```
+
+在这个类图中，`Handler` 是一个抽象类，定义了 `setNextHandler` 和 `handleRequest` 方法。`ConcreteHandlerA`、`ConcreteHandlerB` 和 `ConcreteHandlerC` 是具体的处理者类，它们实现了 `Handler` 接口，并定义了如何处理请求或者将请求传递给链中的下一个处理者。
+
+##### C++ 实现责任链模式
+
+下面是一个简单的责任链模式的 C++ 实现示例：
+
+```cpp
+#include <iostream>
+#include <memory>
+
+// 抽象处理者
+class Handler {
+public:
+    virtual ~Handler() {}
+    virtual void handleRequest(int request) = 0;
+    void setNextHandler(std::shared_ptr<Handler> next) {
+        nextHandler_ = next;
+    }
+protected:
+    std::shared_ptr<Handler> nextHandler_;
+};
+
+// 具体处理者A
+class ConcreteHandlerA : public Handler {
+public:
+    void handleRequest(int request) override {
+        if (request >= 0 && request < 10) {
+            std::cout << "ConcreteHandlerA: handling request " << request << std::endl;
+        } else if (nextHandler_) {
+            nextHandler_->handleRequest(request);
+        }
+    }
+};
+
+// 具体处理者B
+class ConcreteHandlerB : public Handler {
+public:
+    void handleRequest(int request) override {
+        if (request >= 10 && request < 20) {
+            std::cout << "ConcreteHandlerB: handling request " << request << std::endl;
+        } else if (nextHandler_) {
+            nextHandler_->handleRequest(request);
+        }
+    }
+};
+
+// 具体处理者C
+class ConcreteHandlerC : public Handler {
+public:
+    void handleRequest(int request) override {
+        if (request >= 20 && request < 30) {
+            std::cout << "ConcreteHandlerC: handling request " << request << std::endl;
+        } else {
+            std::cout << "Request " << request << " was not handled." << std::endl;
+        }
+    }
+};
+
+int main() {
+    auto handler1 = std::make_shared<ConcreteHandlerA>();
+    auto handler2 = std::make_shared<ConcreteHandlerB>();
+    auto handler3 = std::make_shared<ConcreteHandlerC>();
+
+    handler1->setNextHandler(handler2);
+    handler2->setNextHandler(handler3);
+
+    handler1->handleRequest(5);
+    handler1->handleRequest(15);
+    handler1->handleRequest(25);
+}
+```
+
+在这个实现中，我们定义了一个 `Handler` 抽象类，它有一个 `handleRequest` 方法和一个 `setNextHandler` 方法来设置链中的下一个处理者。`ConcreteHandlerA`、`ConcreteHandlerB` 和 `ConcreteHandlerC` 是具体的处理者类，它们实现了 `handleRequest` 方法。在 `main` 函数中，我们创建了这些处理者的实例，并将它们链接在一起形成了一个责任链。然后，我们通过链头的处理者发送了几个请求，这些请求将被链中的相应处理者处理。
+
 #### 14 命令
+
+命令模式是一种行为设计模式，它将请求封装成对象，从而允许用户使用不同的请求、队列或日志请求来参数化其他对象。命令模式也支持可撤销的操作。
+
+##### Mermaid 表示命令模式的类图
+
+以下是使用 Mermaid 表示命令模式的类图：
+
+```mermaid
+classDiagram
+    class Command {
+      <<interface>>
+      +execute() : void
+    }
+    class ConcreteCommandA {
+      +execute() : void
+    }
+    class ConcreteCommandB {
+      +execute() : void
+    }
+    class Receiver {
+      +action() : void
+    }
+    class Invoker {
+      +storeAndExecute(command : Command) : void
+    }
+    class Client {
+      +createCommand() : Command
+    }
+
+    Command <|-- ConcreteCommandA
+    Command <|-- ConcreteCommandB
+    ConcreteCommandA "1" *-- "1" Receiver : invokes
+    ConcreteCommandB "1" *-- "1" Receiver : invokes
+    Invoker "1" *-- "1" Command : executes
+    Client "1" *-- "1" ConcreteCommandA : creates
+    Client "1" *-- "1" ConcreteCommandB : creates
+```
+
+在这个类图中，`Command` 是一个接口，定义了 `execute` 方法。`ConcreteCommandA` 和 `ConcreteCommandB` 是具体的命令类，实现了 `Command` 接口。`Receiver` 是接收者类，包含了具体的业务逻辑。`Invoker` 是调用者类，负责调用命令对象。`Client` 是创建命令的类。
+
+##### C++ 实现命令模式
+
+以下是命令模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <memory>
+#include <vector>
+
+// 抽象命令类
+class Command {
+public:
+    virtual ~Command() {}
+    virtual void execute() = 0;
+};
+
+// 具体命令类A
+class ConcreteCommandA : public Command {
+private:
+    int value;
+public:
+    ConcreteCommandA(int value) : value(value) {}
+    void execute() override {
+        std::cout << "ConcreteCommandA with value " << value << std::endl;
+    }
+};
+
+// 具体命令类B
+class ConcreteCommandB : public Command {
+private:
+    std::string text;
+public:
+    ConcreteCommandB(const std::string& text) : text(text) {}
+    void execute() override {
+        std::cout << "ConcreteCommandB with text '" << text << "'" << std::endl;
+    }
+};
+
+// 接收者类
+class Receiver {
+public:
+    void action(int value) {
+        std::cout << "Receiver action with value " << value << std::endl;
+    }
+    void action(const std::string& text) {
+        std::cout << "Receiver action with text '" << text << "'" << std::endl;
+    }
+};
+
+// 调用者类
+class Invoker {
+private:
+    std::vector<Command*> commands;
+public:
+    void storeAndExecute(Command* command) {
+        commands.push_back(command);
+        command->execute();
+        commands.clear();
+    }
+};
+
+// 客户端类
+class Client {
+public:
+    Command* createCommandA(int value) {
+        return new ConcreteCommandA(value);
+    }
+    Command* createCommandB(const std::string& text) {
+        return new ConcreteCommandB(text);
+    }
+};
+
+int main() {
+    Client client;
+    Receiver receiver;
+    Invoker invoker;
+
+    Command* commandA = client.createCommandA(10);
+    Command* commandB = client.createCommandB("Hello World");
+
+    invoker.storeAndExecute(commandA);
+    invoker.storeAndExecute(commandB);
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Command` 抽象类，它有一个 `execute` 方法。`ConcreteCommandA` 和 `ConcreteCommandB` 是具体的命令类，实现了 `Command` 接口。`Receiver` 是接收者类，包含了具体的业务逻辑。`Invoker` 是调用者类，负责调用命令对象。`Client` 是创建命令的类。在 `main` 函数中，我们创建了命令对象，并通过调用者执行这些命令。
 
 #### 15 解释器
 
+解释器模式是一种行为设计模式，它允许你编写一个解释器来解释语言中的句子。这种模式通常用于解析简单的语言或构建简单的脚本解释器。
+
+##### Mermaid 表示解释器模式的类图
+
+以下是使用 Mermaid 表示解释器模式的类图：
+
+```mermaid
+classDiagram
+    class AbstractExpression {
+      <<interface>>
+      +interpret(context : Context) : void
+    }
+    class TerminalExpression {
+      +interpret(context : Context) : void
+    }
+    class NonTerminalExpression {
+      +interpret(context : Context) : void
+    }
+    class Context {
+      +createExpression(char letter) : AbstractExpression
+      +lookup(char letter) : int
+    }
+    
+    AbstractExpression <|-- TerminalExpression
+    AbstractExpression <|-- NonTerminalExpression
+```
+
+在这个类图中，`AbstractExpression` 是一个接口，定义了 `interpret` 方法。`TerminalExpression` 和 `NonTerminalExpression` 是具体的表达式类，实现了 `interpret` 方法。`Context` 类用于存储解释器需要的上下文信息，如变量值等。
+
+##### C++ 实现解释器模式
+
+以下是解释器模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <map>
+#include <memory>
+#include <stdexcept>
+
+// 上下文环境
+class Context {
+private:
+    std::map<char, int> variables;
+public:
+    void defineVariable(char name, int value) {
+        variables[name] = value;
+    }
+
+    int lookup(char name) {
+        auto it = variables.find(name);
+        if (it == variables.end()) {
+            throw std::runtime_error("Variable not found");
+        }
+        return it->second;
+    }
+};
+
+// 抽象表达式
+class AbstractExpression {
+public:
+    virtual ~AbstractExpression() {}
+    virtual int interpret(Context &context) = 0;
+};
+
+// 终结符表达式
+class TerminalExpression : public AbstractExpression {
+private:
+    char variable;
+public:
+    TerminalExpression(char variable) : variable(variable) {}
+    int interpret(Context &context) override {
+        return context.lookup(variable);
+    }
+};
+
+// 非终结符表达式
+class NonTerminalExpression : public AbstractExpression {
+private:
+    std::unique_ptr<AbstractExpression> expression;
+public:
+    NonTerminalExpression(std::unique_ptr<AbstractExpression> expression)
+        : expression(std::move(expression)) {}
+    int interpret(Context &context) override {
+        return expression->interpret(context);
+    }
+};
+
+// 客户端代码
+int main() {
+    Context context;
+    context.defineVariable('A', 10);
+    context.defineVariable('B', 20);
+
+    std::unique_ptr<AbstractExpression> expression1 = std::make_unique<TerminalExpression>('A');
+    std::unique_ptr<AbstractExpression> expression2 = std::make_unique<TerminalExpression>('B');
+    std::unique_ptr<AbstractExpression> expression3 = std::make_unique<NonTerminalExpression>(std::move(expression1));
+
+    std::cout << "Interpreting expression 1: " << expression1->interpret(context) << std::endl;
+    std::cout << "Interpreting expression 2: " << expression2->interpret(context) << std::endl;
+    std::cout << "Interpreting expression 3: " << expression3->interpret(context) << std::endl;
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Context` 类来存储变量和它们的值。`AbstractExpression` 是一个抽象类，定义了 `interpret` 方法。`TerminalExpression` 和 `NonTerminalExpression` 是具体的表达式类，实现了 `interpret` 方法。在 `main` 函数中，我们创建了上下文环境，定义了变量，并创建了表达式对象。然后，我们解释并执行这些表达式。
+
+请注意，这个示例是一个非常简化的解释器模式实现。在实际应用中，解释器模式可能涉及更复杂的语法和语义规则，以及更复杂的解析和执行逻辑。
+
 #### 16 迭代器
+
+迭代器模式是一种行为设计模式，它提供一种方法来顺序访问一个聚合对象中的各个元素，而不暴露其内部的表示。迭代器模式通常用于集合类，如列表、树和图。
+
+##### Mermaid 表示迭代器模式的类图
+
+以下是使用 Mermaid 表示迭代器模式的类图：
+
+```mermaid
+classDiagram
+    class Aggregate {
+      <<interface>>
+      +createIterator() : Iterator
+    }
+    class ConcreteAggregate {
+      -_elements : array
+      +[0] : Element
+      +createIterator() : Iterator
+      +get(index : int) : Element
+    }
+    class Iterator {
+      <<interface>>
+      +first() : void
+      +next() : void
+      +isDone() : boolean
+      +currentItem() : Element
+    }
+    class ConcreteIterator {
+      -aggregate : ConcreteAggregate
+      -_index : int
+      +first() : void
+      +next() : void
+      +isDone() : boolean
+      +currentItem() : Element
+    }
+    class Element {
+      <<interface>>
+    }
+
+    Aggregate <|-- ConcreteAggregate
+    Iterator <|-- ConcreteIterator
+    ConcreteAggregate "1" o-- "many" Element : composes
+    ConcreteIterator "1" o-- "1" ConcreteAggregate : aggregates
+```
+
+在这个类图中，`Aggregate` 是一个接口，定义了 `createIterator` 方法来获取迭代器。`ConcreteAggregate` 是具体的聚合类，实现了 `Aggregate` 接口，并存储了元素集合。`Iterator` 是迭代器接口，定义了遍历元素的方法。`ConcreteIterator` 是具体的迭代器类，实现了 `Iterator` 接口。`Element` 是元素接口，表示聚合中的单个元素。
+
+##### C++ 实现迭代器模式
+
+以下是迭代器模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <memory>
+#include <iterator>
+
+// 元素接口
+class Element {
+public:
+    virtual ~Element() {}
+    virtual std::string toString() const = 0;
+};
+
+// 具体的元素类
+class ConcreteElement : public Element {
+private:
+    std::string value;
+public:
+    ConcreteElement(const std::string& value) : value(value) {}
+    std::string toString() const override {
+        return value;
+    }
+};
+
+// 聚合接口
+class Aggregate {
+public:
+    virtual ~Aggregate() {}
+    virtual std::shared_ptr<Iterator> createIterator() = 0;
+    virtual void addElement(std::shared_ptr<Element> element) = 0;
+    virtual std::shared_ptr<Element> getIteratorElement(int index) = 0;
+};
+
+// 具体的聚合类
+class ConcreteAggregate : public Aggregate {
+private:
+    std::vector<std::shared_ptr<Element>> elements;
+public:
+    void addElement(std::shared_ptr<Element> element) override {
+        elements.push_back(element);
+    }
+
+    std::shared_ptr<Element> getIteratorElement(int index) override {
+        if (index < 0 || index >= elements.size()) return nullptr;
+        return elements[index];
+    }
+
+    std::shared_ptr<Iterator> createIterator() override {
+        return std::make_shared<ConcreteIterator>(this);
+    }
+};
+
+// 迭代器接口
+class Iterator {
+public:
+    virtual ~Iterator() {}
+    virtual void first() = 0;
+    virtual void next() = 0;
+    virtual bool isDone() = 0;
+    virtual std::shared_ptr<Element> current() = 0;
+};
+
+// 具体的迭代器类
+class ConcreteIterator : public Iterator {
+private:
+    std::shared_ptr<ConcreteAggregate> aggregate;
+    int index;
+public:
+    ConcreteIterator(std::shared_ptr<ConcreteAggregate> aggregate) : aggregate(aggregate), index(0) {}
+
+    void first() override {
+        index = 0;
+    }
+
+    void next() override {
+        index++;
+    }
+
+    bool isDone() override {
+        return index >= aggregate->elements.size();
+    }
+
+    std::shared_ptr<Element> current() override {
+        if (this->isDone()) return nullptr;
+        return aggregate->getIteratorElement(index);
+    }
+};
+
+int main() {
+    auto aggregate = std::make_shared<ConcreteAggregate>();
+    aggregate->addElement(std::make_shared<ConcreteElement>("Element 1"));
+    aggregate->addElement(std::make_shared<ConcreteElement>("Element 2"));
+    aggregate->addElement(std::make_shared<ConcreteElement>("Element 3"));
+
+    auto iterator = aggregate->createIterator();
+    iterator->first();
+    while (!iterator->isDone()) {
+        auto element = iterator->current();
+        std::cout << element->toString() << std::endl;
+        iterator->next();
+    }
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Element` 接口，它有一个 `toString` 方法。`ConcreteElement` 是具体的元素类，实现了 `Element` 接口。`Aggregate` 是聚合接口，定义了 `createIterator`、`addElement` 和 `getIteratorElement` 方法。`ConcreteAggregate` 是具体的聚合类，实现了 `Aggregate` 接口，并存储了元素集合。`Iterator` 是迭代器接口，定义了遍历元素的方法。`ConcreteIterator` 是具体的迭代器类，实现了 `Iterator` 接口。在 `main` 函数中，我们创建了聚合对象，添加了元素，并使用迭代器遍历这些元素。
 
 #### 17 中介者
 
+##### Mermaid 表示中介者模式的类图
+
+以下是使用 Mermaid 表示中介者模式的类图：
+
+```mermaid
+classDiagram
+    class Mediator {
+      <<interface>>
+      +sendMessage(colleague : Colleague, message : string) : void
+    }
+    class Colleague {
+      +send(message : string) : void
+      +receive(message : string) : void
+      +setMediator(mediator : Mediator) : void
+    }
+    class ConcreteMediator {
+      +sendMessage(colleague : Colleague, message : string) : void
+    }
+    class ConcreteColleagueA {
+      +send(message : string) : void
+      +receive(message : string) : void
+    }
+    class ConcreteColleagueB {
+      +send(message : string) : void
+      +receive(message : string) : void
+    }
+
+    Mediator <|.. ConcreteMediator
+    Colleague <|.. ConcreteColleagueA
+    Colleague <|.. ConcreteColleagueB
+    ConcreteMediator "1" o-- "many" Colleague : colleagues
+```
+
+在这个类图中，`Mediator` 是中介者接口，定义了 `sendMessage` 方法。`Colleague` 是同事类接口，定义了 `send`、`receive` 和 `setMediator` 方法。`ConcreteMediator` 是具体的中介者类，实现了 `Mediator` 接口。`ConcreteColleagueA` 和 `ConcreteColleagueB` 是具体的同事类，实现了 `Colleague` 接口。
+
+##### C++ 实现中介者模式
+
+以下是中介者模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
+
+// 抽象中介者
+class Mediator {
+public:
+    virtual void sendMessage(const std::string& message, Colleague* colleague) = 0;
+};
+
+// 抽象同事类
+class Colleague {
+protected:
+    Mediator* mediator_;
+public:
+    Colleague(Mediator* mediator) : mediator_(mediator) {}
+    virtual void send(const std::string& message) {
+        if (mediator_) mediator_->sendMessage(message, this);
+    }
+    virtual void receive(const std::string& message) = 0;
+};
+
+// 具体中介者
+class ConcreteMediator : public Mediator {
+private:
+    Colleague* colleagueA_;
+    Colleague* colleagueB_;
+public:
+    ConcreteMediator(Colleague* a, Colleague* b) : colleagueA_(a), colleagueB_(b) {
+        a->setMediator(this);
+        b->setMediator(this);
+    }
+    void sendMessage(const std::string& message, Colleague* colleague) override {
+        if (colleague == colleagueA_) {
+            colleagueB_->receive(message);
+        } else if (colleague == colleagueB_) {
+            colleagueA_->receive(message);
+        }
+    }
+};
+
+// 具体同事类A
+class ConcreteColleagueA : public Colleague {
+public:
+    ConcreteColleagueA(Mediator* mediator) : Colleague(mediator) {}
+    void receive(const std::string& message) override {
+        std::cout << "Colleague A received message: " << message << std::endl;
+    }
+};
+
+// 具体同事类B
+class ConcreteColleagueB : public Colleague {
+public:
+    ConcreteColleagueB(Mediator* mediator) : Colleague(mediator) {}
+    void receive(const std::string& message) override {
+        std::cout << "Colleague B received message: " << message << std::endl;
+    }
+};
+
+int main() {
+    // 创建具体中介者
+    ConcreteMediator mediator(new ConcreteColleagueA(nullptr), new ConcreteColleagueB(nullptr));
+    
+    // 创建具体同事类，并设置中介者
+    ConcreteColleagueA* colleagueA = dynamic_cast<ConcreteColleagueA*>(mediator.colleagueA_);
+    ConcreteColleagueB* colleagueB = dynamic_cast<ConcreteColleagueB*>(mediator.colleagueB_);
+    
+    // 发送消息
+    colleagueA->send("Hello from A to B");
+    colleagueB->send("Hello from B to A");
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Mediator` 抽象中介者类，它有一个 `sendMessage` 方法。`Colleague` 是抽象同事类，它有一个 `send` 方法来发送消息给中介者，以及一个 `receive` 方法来接收消息。`ConcreteMediator` 是具体的中介者类，实现了 `Mediator` 接口，并协调同事类之间的交互。`ConcreteColleagueA` 和 `ConcreteColleagueB` 是具体的同事类，实现了 `Colleague` 接口，并定义了如何接收消息。在 `main` 函数中，我们创建了中介者和同事类的实例，并通过中介者发送和接收消息。
+
 #### 18 备忘录
+
+##### Mermaid 表示备忘录模式的类图
+
+备忘录模式是一种行为设计模式，它允许在不暴露对象内部细节的情况下，捕获和恢复对象的状态。
+
+以下是使用 Mermaid 表示备忘录模式的类图：
+
+```mermaid
+classDiagram
+    class Originator {
+      -_state : string
+      +createMemento() : Memento
+      +setMemento(memento : Memento) : void
+      +getState() : string
+    }
+    class Memento {
+      <<interface>>
+      +getState() : string
+      +setState(state : string) : void
+    }
+    class ConcreteMemento {
+      -_state : string
+      +getState() : string
+      +setState(state : string) : void
+    }
+    class Caretaker {
+      -_memento : Memento
+      +saveMemento(memento : Memento) : void
+      +getMemento() : Memento
+    }
+
+    Originator "1" o-- "1" ConcreteMemento : creates
+    Caretaker "1" o-- "1" Memento : holds
+```
+
+在这个类图中，`Originator` 是原始对象，它维护着需要备份的状态。`createMemento` 方法用于创建备忘录，`setMemento` 方法用于恢复状态。`Memento` 是备忘录接口，定义了获取和设置状态的方法。`ConcreteMemento` 是具体的备忘录类，实现了 `Memento` 接口。`Caretaker` 是负责人类，负责保存和提供备忘录对象。
+
+##### C++ 实现备忘录模式
+
+以下是备忘录模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <string>
+#include <memory>
+
+// 备忘录接口
+class Memento {
+public:
+    virtual ~Memento() {}
+    virtual std::string getState() const = 0;
+    virtual void setState(const std::string& state) = 0;
+};
+
+// 原始对象类
+class Originator {
+private:
+    std::string _state;
+public:
+    std::string getState() const {
+        return _state;
+    }
+    
+    void setState(const std::string& state) {
+        _state = state;
+    }
+    
+    // 创建备忘录
+    std::shared_ptr<Memento> createMemento() {
+        return std::make_shared<ConcreteMemento>(_state);
+    }
+    
+    // 恢复状态
+    void setMemento(const std::shared_ptr<Memento>& memento) {
+        _state = memento->getState();
+    }
+};
+
+// 具体的备忘录类
+class ConcreteMemento : public Memento {
+private:
+    std::string _state;
+public:
+    ConcreteMemento(const std::string& state) : _state(state) {}
+    
+    std::string getState() const override {
+        return _state;
+    }
+    
+    void setState(const std::string& state) override {
+        _state = state;
+    }
+};
+
+// 负责人类
+class Caretaker {
+private:
+    std::shared_ptr<Memento> _memento;
+public:
+    void saveMemento(const std::shared_ptr<Memento>& memento) {
+        _memento = memento;
+    }
+    
+    std::shared_ptr<Memento> getMemento() const {
+        return _memento;
+    }
+};
+
+int main() {
+    Originator originator;
+    Caretaker caretaker;
+    
+    // 设置原始对象的状态并保存备忘录
+    originator.setState("State 1");
+    caretaker.saveMemento(originator.createMemento());
+    
+    // 修改原始对象的状态
+    originator.setState("State 2");
+    
+    // 恢复原始对象的状态
+    originator.setMemento(caretaker.getMemento());
+    
+    std::cout << "Restored state: " << originator.getState() << std::endl;
+    
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Memento` 备忘录接口，它有两个方法：`getState` 和 `setState`。`Originator` 是原始对象类，它维护着需要备份的状态，并提供了创建备忘录和恢复状态的方法。`ConcreteMemento` 是具体的备忘录类，实现了 `Memento` 接口。`Caretaker` 是负责人类，负责保存和提供备忘录对象。在 `main` 函数中，我们创建了原始对象和负责人对象，设置原始对象的状态，保存备忘录，修改原始对象的状态，然后恢复原始对象的状态。
 
 #### 19 观察者
 
+##### Mermaid 表示观察者模式的类图
+
+观察者模式是一种行为设计模式，它定义了对象之间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都会得到通知并自动更新。
+
+以下是使用 Mermaid 表示观察者模式的类图：
+
+```mermaid
+classDiagram
+    class Subject {
+      <<interface>>
+      +attach(observer : Observer) : void
+      +detach(observer : Observer) : void
+      +notify() : void
+    }
+    class ConcreteSubject {
+      -_observers : list
+      +attach(observer : Observer) : void
+      +detach(observer : Observer) : void
+      +notify() : void
+      +getState() : int
+      +setState(state : int) : void
+    }
+    class Observer {
+      <<interface>>
+      +update(subject : Subject) : void
+    }
+    class ConcreteObserverA {
+      +update(subject : Subject) : void
+    }
+    class ConcreteObserverB {
+      +update(subject : Subject) : void
+    }
+
+    Subject <|-- ConcreteSubject
+    Observer <|-- ConcreteObserverA
+    Observer <|-- ConcreteObserverB
+    ConcreteSubject "1" o-- "many" Observer : observers
+```
+
+在这个类图中，`Subject` 是主题接口，定义了添加、移除和通知观察者的方法。`ConcreteSubject` 是具体的主题类，实现了 `Subject` 接口，并维护了观察者列表。`Observer` 是观察者接口，定义了更新方法。`ConcreteObserverA` 和 `ConcreteObserverB` 是具体的观察者类，实现了 `Observer` 接口。
+
+##### C++ 实现观察者模式
+
+以下是观察者模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <list>
+#include <memory>
+
+// 观察者接口
+class Observer {
+public:
+    virtual ~Observer() {}
+    virtual void update(const std::shared_ptr<Subject>& subject) = 0;
+};
+
+// 具体观察者
+class ConcreteObserverA : public Observer {
+public:
+    void update(const std::shared_ptr<Subject>& subject) override {
+        std::cout << "ConcreteObserverA: Reacting to the event" << std::endl;
+    }
+};
+
+class ConcreteObserverB : public Observer {
+public:
+    void update(const std::shared_ptr<Subject>& subject) override {
+        std::cout << "ConcreteObserverB: Reacting to the event" << std::endl;
+    }
+};
+
+// 主题接口
+class Subject {
+public:
+    virtual ~Subject() {}
+    virtual void attach(std::shared_ptr<Observer> observer) = 0;
+    virtual void detach(std::shared_ptr<Observer> observer) = 0;
+    virtual void notify() = 0;
+};
+
+// 具体主题
+class ConcreteSubject : public Subject {
+private:
+    int _state;
+    std::list<std::shared_ptr<Observer>> _observers;
+public:
+    void attach(std::shared_ptr<Observer> observer) override {
+        _observers.push_back(observer);
+    }
+    
+    void detach(std::shared_ptr<Observer> observer) override {
+        _observers.remove(observer);
+    }
+    
+    void notify() override {
+        for (const auto& observer : _observers) {
+            observer->update(shared_from_this());
+        }
+    }
+    
+    void setState(int state) {
+        _state = state;
+        notify();
+    }
+    
+    int getState() const {
+        return _state;
+    }
+};
+
+// 让 ConcreteSubject 能被观察者回调
+namespace std {
+    template <>
+    class shared_ptr<ConcreteSubject> {
+    public:
+        static std::shared_ptr<ConcreteSubject> get(std::shared_ptr<ConcreteSubject> const& p) {
+            return p;
+        }
+    };
+}
+
+int main() {
+    auto subject = std::make_shared<ConcreteSubject>();
+    auto observerA = std::make_shared<ConcreteObserverA>();
+    auto observerB = std::make_shared<ConcreteObserverB>();
+
+    subject->attach(observerA);
+    subject->attach(observerB);
+
+    subject->setState(1); // This will notify both observers
+
+    subject->detach(observerA);
+
+    subject->setState(2); // This will notify only observerB
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Observer` 观察者接口，它有一个 `update` 方法。`ConcreteObserverA` 和 `ConcreteObserverB` 是具体的观察者类，实现了 `Observer` 接口。`Subject` 是主题接口，定义了添加、移除和通知观察者的方法。`ConcreteSubject` 是具体的主题类，实现了 `Subject` 接口，并维护了观察者列表。在 `main` 函数中，我们创建了主题和观察者对象，将观察者附加到主题上，然后改变了主题的状态，这将通知所有注册的观察者。
+
 #### 20 状态
+
+##### Mermaid 表示状态模式的类图
+
+状态模式是一种行为设计模式，它允许一个对象在其内部状态发生改变时改变它的行为，看起来好像修改了其类。
+
+以下是使用 Mermaid 表示状态模式的类图：
+
+```mermaid
+classDiagram
+    class Context {
+      -contextState : State
+      +setState(state : State) : void
+      +getState() : State
+      +request1() : void
+      +request2() : void
+    }
+    class State {
+      <<interface>>
+      +handle1(context : Context) : void
+      +handle2(context : Context) : void
+    }
+    class ConcreteStateA {
+      +handle1(context : Context) : void
+      +handle2(context : Context) : void
+    }
+    class ConcreteStateB {
+      +handle1(context : Context) : void
+      +handle2(context : Context) : void
+    }
+
+    Context "1" o-- "1" State : has a >
+    State <|-- ConcreteStateA
+    State <|-- ConcreteStateB
+```
+
+在这个类图中，`Context` 是上下文类，它维护了一个指向当前状态对象的引用。`State` 是状态接口，定义了所有具体状态类必须实现的方法。`ConcreteStateA` 和 `ConcreteStateB` 是具体的状态类，实现了 `State` 接口。
+
+##### C++ 实现状态模式
+
+以下是状态模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <memory>
+
+// 状态接口
+class State {
+public:
+    virtual ~State() {}
+    virtual void handle1(std::shared_ptr<Context> context) = 0;
+    virtual void handle2(std::shared_ptr<Context> context) = 0;
+};
+
+// 具体状态A
+class ConcreteStateA : public State {
+public:
+    void handle1(std::shared_ptr<Context> context) override {
+        std::cout << "ConcreteStateA handles request1" << std::endl;
+        context->setState(std::make_shared<ConcreteStateB>());
+    }
+    void handle2(std::shared_ptr<Context> context) override {
+        std::cout << "ConcreteStateA handles request2" << std::endl;
+    }
+};
+
+// 具体状态B
+class ConcreteStateB : public State {
+public:
+    void handle1(std::shared_ptr<Context> context) override {
+        std::cout << "ConcreteStateB handles request1" << std::endl;
+        context->setState(std::make_shared<ConcreteStateA>());
+    }
+    void handle2(std::shared_ptr<Context> context) override {
+        std::cout << "ConcreteStateB handles request2" << std::endl;
+    }
+};
+
+// 上下文类
+class Context {
+private:
+    std::shared_ptr<State> state_;
+public:
+    void setState(std::shared_ptr<State> state) {
+        state_ = state;
+    }
+    std::shared_ptr<State> getState() {
+        return state_;
+    }
+    void request1() {
+        state_->handle1(shared_from_this());
+    }
+    void request2() {
+        state_->handle2(shared_from_this());
+    }
+};
+
+// 让 Context 能被自己内部的成员函数共享
+namespace std {
+    template<>
+    class shared_ptr<Context> {
+    public:
+        static std::shared_ptr<Context> get(std::shared_ptr<Context> const& p) {
+            return p;
+        }
+    };
+}
+
+int main() {
+    auto context = std::make_shared<Context>();
+    context->setState(std::make_shared<ConcreteStateA>());
+    context->request1(); // State A changes to State B
+    context->request2();
+    context->request1(); // State B changes to State A
+    context->request2();
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `State` 接口，它有两个方法：`handle1` 和 `handle2`。`ConcreteStateA` 和 `ConcreteStateB` 是具体的状态类，实现了 `State` 接口，并定义了在状态改变时的行为。`Context` 是上下文类，它维护了一个状态对象，并提供了 `request1` 和 `request2` 方法来改变状态。在 `main` 函数中，我们创建了上下文对象，并在不同状态下请求处理，状态对象根据请求改变上下文的状态。
 
 #### 21 策略
 
+##### Mermaid 表示策略模式的类图
+
+策略模式是一种行为设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以互换使用，算法的变化不会影响使用算法的客户。
+
+以下是使用 Mermaid 表示策略模式的类图：
+
+```mermaid
+classDiagram
+    class Context {
+      -strategy : Strategy
+      +setStrategy(strategy : Strategy) : void
+      +executeStrategy() : void
+    }
+    class Strategy {
+      <<interface>>
+      +algorithm() : void
+    }
+    class ConcreteStrategyA {
+      +algorithm() : void
+    }
+    class ConcreteStrategyB {
+      +algorithm() : void
+    }
+    class ConcreteStrategyC {
+      +algorithm() : void
+    }
+
+    Context "1" o-- "1" Strategy : uses a >
+    Strategy <|-- ConcreteStrategyA
+    Strategy <|-- ConcreteStrategyB
+    Strategy <|-- ConcreteStrategyC
+```
+
+在这个类图中，`Context` 是上下文类，它维护了一个策略对象的引用。`Strategy` 是策略接口，定义了所有具体策略类必须实现的算法方法。`ConcreteStrategyA`、`ConcreteStrategyB` 和 `ConcreteStrategyC` 是具体策略类，实现了 `Strategy` 接口。
+
+##### C++ 实现策略模式
+
+以下是策略模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <memory>
+
+// 策略接口
+class Strategy {
+public:
+    virtual ~Strategy() {}
+    virtual void algorithm() const = 0;
+};
+
+// 具体策略A
+class ConcreteStrategyA : public Strategy {
+public:
+    void algorithm() const override {
+        std::cout << "Applying strategy A" << std::endl;
+    }
+};
+
+// 具体策略B
+class ConcreteStrategyB : public Strategy {
+public:
+    void algorithm() const override {
+        std::cout << "Applying strategy B" << std::endl;
+    }
+};
+
+// 具体策略C
+class ConcreteStrategyC : public Strategy {
+public:
+    void algorithm() const override {
+        std::cout << "Applying strategy C" << std::endl;
+    }
+};
+
+// 上下文类
+class Context {
+private:
+    std::shared_ptr<Strategy> strategy_;
+public:
+    Context() = default;
+
+    void setStrategy(const std::shared_ptr<Strategy>& strategy) {
+        strategy_ = strategy;
+    }
+
+    void executeStrategy() const {
+        strategy_->algorithm();
+    }
+};
+
+int main() {
+    Context context;
+    std::shared_ptr<Strategy> strategyA = std::make_shared<ConcreteStrategyA>();
+    std::shared_ptr<Strategy> strategyB = std::make_shared<ConcreteStrategyB>();
+    std::shared_ptr<Strategy> strategyC = std::make_shared<ConcreteStrategyC>();
+
+    context.setStrategy(strategyA);
+    context.executeStrategy();
+
+    context.setStrategy(strategyB);
+    context.executeStrategy();
+
+    context.setStrategy(strategyC);
+    context.executeStrategy();
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Strategy` 接口，它有一个 `algorithm` 方法。`ConcreteStrategyA`、`ConcreteStrategyB` 和 `ConcreteStrategyC` 是具体策略类，实现了 `Strategy` 接口，并定义了各自的算法。`Context` 是上下文类，它维护了一个策略对象的引用，并提供了 `setStrategy` 和 `executeStrategy` 方法来设置和执行策略。在 `main` 函数中，我们创建了上下文对象和策略对象，通过上下文对象切换不同的策略并执行它们。
+
 #### 22 模板方法
 
+##### Mermaid 表示模板方法模式的类图
+
+模板方法模式是一种行为设计模式，它在父类中定义了一个算法的框架，允许子类在不改变算法结构的情况下重写算法的某些步骤。
+
+以下是使用 Mermaid 表示模板方法模式的类图：
+
+```mermaid
+classDiagram
+    class AbstractClass {
+      <<abstract>>
+      +templateMethod() : void
+      +baseOperation1() : void
+    }
+    class ConcreteClassA {
+      +baseOperation2() : void
+      +baseOperation3() : void
+    }
+    class ConcreteClassB {
+      +baseOperation2() : void
+      +baseOperation3() : void
+    }
+
+    AbstractClass <|-- ConcreteClassA
+    AbstractClass <|-- ConcreteClassB
+    AbstractClass ..> ConcreteClassA : templateMethod()
+    AbstractClass ..> ConcreteClassB : templateMethod()
+```
+
+在这个类图中，`AbstractClass` 是抽象类，它定义了模板方法和一系列基本操作。`ConcreteClassA` 和 `ConcreteClassB` 是具体实现类，它们继承自 `AbstractClass` 并实现了特定的基本操作。
+
+##### C++ 实现模板方法模式
+
+以下是模板方法模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+
+// 抽象类
+class AbstractClass {
+public:
+    // 模板方法
+    void templateMethod() {
+        baseOperation1();
+        baseOperation2();
+        baseOperation3();
+        std::cout << "AbstractClass: The algorithm is finished." << std::endl;
+    }
+
+    // 基本操作1
+    void baseOperation1() {
+        std::cout << "AbstractClass: Base operation 1 is executed." << std::endl;
+    }
+
+    // 基本操作2和3声明为纯虚函数，由子类实现
+    virtual void baseOperation2() = 0;
+    virtual void baseOperation3() = 0;
+
+    virtual ~AbstractClass() = default;
+};
+
+// 具体实现类A
+class ConcreteClassA : public AbstractClass {
+public:
+    void baseOperation2() override {
+        std::cout << "ConcreteClassA: Implements base operation 2." << std::endl;
+    }
+
+    void baseOperation3() override {
+        std::cout << "ConcreteClassA: Implements base operation 3." << std::endl;
+    }
+};
+
+// 具体实现类B
+class ConcreteClassB : public AbstractClass {
+public:
+    void baseOperation2() override {
+        std::cout << "ConcreteClassB: Implements base operation 2." << std::endl;
+    }
+
+    void baseOperation3() override {
+        std::cout << "ConcreteClassB: Implements base operation 3." << std::endl;
+    }
+};
+
+int main() {
+    ConcreteClassA classA;
+    classA.templateMethod();
+
+    ConcreteClassB classB;
+    classB.templateMethod();
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `AbstractClass` 抽象类，它包含了模板方法 `templateMethod` 和两个纯虚函数 `baseOperation2` 和 `baseOperation3`。`ConcreteClassA` 和 `ConcreteClassB` 是具体实现类，它们实现了 `baseOperation2` 和 `baseOperation3` 方法。在 `main` 函数中，我们创建了 `ConcreteClassA` 和 `ConcreteClassB` 的实例，并调用了它们的 `templateMethod` 方法，这将按照定义的算法框架执行操作。
+
 #### 23 访问者
+
+##### Mermaid 表示访问者模式的类图
+
+访问者模式是一种行为设计模式，它允许你将算法与对象结构分离，将处理从对象中抽象出来，并在不改变对象结构的情况下，为对象添加新的操作。
+
+以下是使用 Mermaid 表示访问者模式的类图：
+
+```mermaid
+classDiagram
+    class ObjectStructure {
+      +attach(o : Element) : void
+      +detach(o : Element) : void
+      +accept(visitor : Visitor) : void
+    }
+    class Element {
+      <<interface>>
+      +accept(visitor : Visitor) : void
+    }
+    class ConcreteElementA {
+      +accept(visitor : Visitor) : void
+    }
+    class ConcreteElementB {
+      +accept(visitor : Visitor) : void
+    }
+    class Visitor {
+      <<interface>>
+      +visit(elementA : ConcreteElementA) : void
+      +visit(elementB : ConcreteElementB) : void
+    }
+    class ConcreteVisitorA {
+      +visit(elementA : ConcreteElementA) : void
+      +visit(elementB : ConcreteElementB) : void
+    }
+    class ConcreteVisitorB {
+      +visit(elementA : ConcreteElementA) : void
+      +visit(elementB : ConcreteElementB) : void
+    }
+
+    ObjectStructure "1" o-- "many" Element : contains
+    Element <|.. ConcreteElementA
+    Element <|.. ConcreteElementB
+    Visitor <|.. ConcreteVisitorA
+    Visitor <|.. ConcreteVisitorB
+    ConcreteElementA "1" o-- "1" ConcreteVisitorA : visits
+    ConcreteElementB "1" o-- "1" ConcreteVisitorA : visits
+    ConcreteElementA "1" o-- "1" ConcreteVisitorB : visits
+    ConcreteElementB "1" o-- "1" ConcreteVisitorB : visits
+```
+
+在这个类图中，`ObjectStructure` 是对象结构，可以是组合结构，可以附加和分离元素。`Element` 是元素接口，定义了 `accept` 方法。`ConcreteElementA` 和 `ConcreteElementB` 是具体元素类，实现了 `Element` 接口。`Visitor` 是访问者接口，定义了访问具体元素的方法。`ConcreteVisitorA` 和 `ConcreteVisitorB` 是具体访问者类，实现了 `Visitor` 接口。
+
+##### C++ 实现访问者模式
+
+以下是访问者模式在 C++ 中的一个简单实现示例：
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <memory>
+
+// 元素接口
+class Element {
+public:
+    virtual ~Element() {}
+    virtual void accept(class Visitor* visitor) = 0;
+};
+
+// 具体元素A
+class ConcreteElementA : public Element {
+public:
+    void accept(class Visitor* visitor) override {
+        visitor->visit(this);
+    }
+
+    void operation() {
+        std::cout << "ConcreteElementA operation" << std::endl;
+    }
+};
+
+// 具体元素B
+class ConcreteElementB : public Element {
+public:
+    void accept(class Visitor* visitor) override {
+        visitor->visit(this);
+    }
+
+    void operation() {
+        std::cout << "ConcreteElementB operation" << std::endl;
+    }
+};
+
+// 访问者接口
+class Visitor {
+public:
+    virtual ~Visitor() {}
+    virtual void visit(ConcreteElementA* element) = 0;
+    virtual void visit(ConcreteElementB* element) = 0;
+};
+
+// 具体访问者A
+class ConcreteVisitorA : public Visitor {
+public:
+    void visit(ConcreteElementA* element) override {
+        std::cout << "ConcreteVisitorA visits ConcreteElementA" << std::endl;
+        element->operation();
+    }
+
+    void visit(ConcreteElementB* element) override {
+        std::cout << "ConcreteVisitorA visits ConcreteElementB" << std::endl;
+        element->operation();
+    }
+};
+
+// 具体访问者B
+class ConcreteVisitorB : public Visitor {
+public:
+    void visit(ConcreteElementA* element) override {
+        std::cout << "ConcreteVisitorB visits ConcreteElementA" << std::endl;
+        element->operation();
+    }
+
+    void visit(ConcreteElementB* element) override {
+        std::cout << "ConcreteVisitorB visits ConcreteElementB" << std::endl;
+        element->operation();
+    }
+};
+
+// 对象结构
+class ObjectStructure {
+private:
+    std::vector<std::unique_ptr<Element>> elements;
+public:
+    void attach(std::unique_ptr<Element> element) {
+        elements.push_back(std::move(element));
+    }
+
+    void detach(Element* element) {
+        elements.erase(std::remove_if(elements.begin(), elements.end(),
+                                      [=](const std::unique_ptr<Element>& e) { return e.get() == element; }),
+                      elements.end());
+    }
+
+    void accept(Visitor* visitor) {
+        for (auto& element : elements) {
+            element->accept(visitor);
+        }
+    }
+};
+
+int main() {
+    auto os = std::make_unique<ObjectStructure>();
+
+    os->attach(std::make_unique<ConcreteElementA>());
+    os->attach(std::make_unique<ConcreteElementB>());
+
+    ConcreteVisitorA visitorA;
+    ConcreteVisitorB visitorB;
+
+    os->accept(&visitorA);
+    std::cout << std::endl;
+    os->accept(&visitorB);
+
+    return 0;
+}
+```
+
+在这个实现中，我们定义了一个 `Element` 接口，它有一个 `accept` 方法。`ConcreteElementA` 和 `ConcreteElementB` 是具体元素类，实现了 `Element` 接口。`Visitor` 是访问者接口，定义了访问具体元素的方法。`ConcreteVisitorA` 和 `ConcreteVisitorB` 是具体访问者类，实现了 `Visitor` 接口。`ObjectStructure` 是对象结构，它维护了一个元素列表，并提供了 `attach`、`detach` 和 `accept` 方法。在 `main` 函数中，我们创建了对象结构和元素对象，将元素附加到对象结构上，然后使用不同的访问者访问这些元素。
 
 ## reference
 
